@@ -1,6 +1,6 @@
 services:
   rabbitmq:
-    image: rabbitmq:3.13.2-management-alpine
+    image: rabbitmq
     container_name: 'rabbitmq'
     restart: always
     environment:
