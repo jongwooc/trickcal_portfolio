@@ -1,0 +1,1089 @@
+wait until (whiteledlight.brightness == 0)\n{
+wait until (redledlight.brightness != 0 and time.minute <= 22)\n{
+wait until (greenledlight.brightness <= 0 or speaker.volume >= 39)\n{
+if (blueledlight.brightness >= 0)\n{
+if (powermeter.watt > 0 or time.minute > 20)\n{
+if (scale.weight < 0 and humidsensor.humidity < 23)\n{
+loop (1 SEC)\n{
+loop (1 SEC)\n{
+wait until (redledlight.brightness != 1)\n{
+wait until (greenledlight.brightness <= 1 and lightsensor.brightness >= 54)\n{
+wait until (blueledlight.brightness >= 1 or humidsensor.humidity > 71)\n{
+if (powermeter.watt > 1)\n{
+if (scale.weight < 1 or TV.volume != 91)\n{
+if (lightsensor.brightness == 1 and greenledlight.brightness >= 53)\n{
+loop (2 HOUR)\n{
+loop (2 HOUR)\n{
+wait until (greenledlight.brightness <= 2)\n{
+wait until (blueledlight.brightness >= 2 and scale.weight != 63)\n{
+wait until (powermeter.watt > 2 or time.minute < 17)\n{
+if (scale.weight < 2)\n{
+if (lightsensor.brightness == 2 or humidsensor.humidity >= 67)\n{
+if (humidsensor.humidity != 2 and humidsensor.humidity >= 70)\n{
+loop (3 HOUR)\n{
+loop (3 HOUR)\n{
+wait until (blueledlight.brightness >= 3)\n{
+wait until (powermeter.watt > 3 and greenledlight.brightness == 17)\n{
+wait until (scale.weight < 3 or scale.weight != 72)\n{
+if (lightsensor.brightness == 3)\n{
+if (humidsensor.humidity != 3 or time.hour != 51)\n{
+if (temperaturesensor.degree <= 3 and temperaturesensor.degree >= 98)\n{
+loop (4 MIN)\n{
+loop (4 MIN)\n{
+wait until (powermeter.watt > 4)\n{
+wait until (scale.weight < 4 and scale.weight != 49)\n{
+wait until (lightsensor.brightness == 4 or powermeter.watt == 97)\n{
+if (humidsensor.humidity != 4)\n{
+if (temperaturesensor.degree <= 4 or greenledlight.brightness >= 35)\n{
+if (supersonicsensor.distance >= 4 and TV.volume >= 62)\n{
+loop (5 HOUR)\n{
+loop (5 HOUR)\n{
+wait until (scale.weight < 5)\n{
+wait until (lightsensor.brightness == 5 and time.minute > 40)\n{
+wait until (humidsensor.humidity != 5 or scale.weight != 15)\n{
+if (temperaturesensor.degree <= 5)\n{
+if (supersonicsensor.distance >= 5 or redledlight.brightness <= 77)\n{
+if (time.hour > 5 and TV.channel >= 81)\n{
+loop (6 MIN)\n{
+loop (6 MIN)\n{
+wait until (lightsensor.brightness == 6)\n{
+wait until (humidsensor.humidity != 6 and powermeter.watt >= 0)\n{
+wait until (temperaturesensor.degree <= 6 or humidsensor.humidity != 24)\n{
+if (supersonicsensor.distance >= 6)\n{
+if (time.hour > 6 or TV.volume >= 7)\n{
+if (time.minute < 6 and time.minute > 25)\n{
+loop (7 DAY)\n{
+loop (7 DAY)\n{
+wait until (humidsensor.humidity != 7)\n{
+wait until (temperaturesensor.degree <= 7 and powermeter.watt == 21)\n{
+wait until (supersonicsensor.distance >= 7 or TV.channel >= 60)\n{
+if (time.hour > 7)\n{
+if (time.minute < 7 or powermeter.watt == 71)\n{
+if (speaker.volume == 7 and speaker.volume != 31)\n{
+loop (8 DAY)\n{
+loop (8 DAY)\n{
+wait until (temperaturesensor.degree <= 8)\n{
+wait until (supersonicsensor.distance >= 8 and lightsensor.brightness < 8)\n{
+wait until (time.hour > 8 or temperaturesensor.degree > 51)\n{
+if (time.minute < 8)\n{
+if (speaker.volume == 8 or speaker.volume == 5)\n{
+if (TV.volume != 8 and TV.volume < 69)\n{
+loop (9 HOUR)\n{
+loop (9 HOUR)\n{
+wait until (supersonicsensor.distance >= 9)\n{
+wait until (time.hour > 9 and TV.channel < 95)\n{
+wait until (time.minute < 9 or whiteledlight.brightness != 59)\n{
+if (speaker.volume == 9)\n{
+if (TV.volume != 9 or time.minute == 19)\n{
+if (TV.channel <= 9 and scale.weight <= 47)\n{
+loop (10 MIN)\n{
+loop (10 MIN)\n{
+wait until (time.hour > 10)\n{
+wait until (time.minute < 10 and scale.weight <= 86)\n{
+wait until (speaker.volume == 10 or scale.weight >= 90)\n{
+if (TV.volume != 10)\n{
+if (TV.channel <= 10 or TV.channel != 83)\n{
+if (whiteledlight.brightness >= 10 and blueledlight.brightness >= 83)\n{
+loop (11 HOUR)\n{
+loop (11 HOUR)\n{
+wait until (time.minute < 11)\n{
+wait until (speaker.volume == 11 and speaker.volume <= 18)\n{
+wait until (TV.volume != 11 or redledlight.brightness != 83)\n{
+if (TV.channel <= 11)\n{
+if (whiteledlight.brightness >= 11 or time.minute < 21)\n{
+if (redledlight.brightness > 11 and blueledlight.brightness > 97)\n{
+loop (12 SEC)\n{
+loop (12 SEC)\n{
+wait until (speaker.volume == 12)\n{
+wait until (TV.volume != 12 and whiteledlight.brightness < 40)\n{
+wait until (TV.channel <= 12 or time.minute <= 31)\n{
+if (whiteledlight.brightness >= 12)\n{
+if (redledlight.brightness > 12 or powermeter.watt >= 9)\n{
+if (greenledlight.brightness < 12 and redledlight.brightness < 27)\n{
+loop (13 MIN)\n{
+loop (13 MIN)\n{
+wait until (TV.volume != 13)\n{
+wait until (TV.channel <= 13 and supersonicsensor.distance == 39)\n{
+wait until (whiteledlight.brightness >= 13 or humidsensor.humidity == 94)\n{
+if (redledlight.brightness > 13)\n{
+if (greenledlight.brightness < 13 or lightsensor.brightness == 42)\n{
+if (blueledlight.brightness == 13 and time.minute <= 18)\n{
+loop (14 DAY)\n{
+loop (14 DAY)\n{
+wait until (TV.channel <= 14)\n{
+wait until (whiteledlight.brightness >= 14 and greenledlight.brightness < 6)\n{
+wait until (redledlight.brightness > 14 or temperaturesensor.degree > 46)\n{
+if (greenledlight.brightness < 14)\n{
+if (blueledlight.brightness == 14 or time.hour == 78)\n{
+if (powermeter.watt != 14 and blueledlight.brightness != 48)\n{
+loop (15 SEC)\n{
+loop (15 SEC)\n{
+wait until (whiteledlight.brightness >= 15)\n{
+wait until (redledlight.brightness > 15 and greenledlight.brightness < 28)\n{
+wait until (greenledlight.brightness < 15 or powermeter.watt < 35)\n{
+if (blueledlight.brightness == 15)\n{
+if (powermeter.watt != 15 or TV.channel >= 59)\n{
+if (scale.weight <= 15 and speaker.volume != 3)\n{
+loop (16 SEC)\n{
+loop (16 SEC)\n{
+wait until (redledlight.brightness > 16)\n{
+wait until (greenledlight.brightness < 16 and scale.weight > 77)\n{
+wait until (blueledlight.brightness == 16 or TV.volume < 43)\n{
+if (powermeter.watt != 16)\n{
+if (scale.weight <= 16 or powermeter.watt > 67)\n{
+if (lightsensor.brightness >= 16 and TV.volume >= 35)\n{
+loop (17 SEC)\n{
+loop (17 SEC)\n{
+wait until (greenledlight.brightness < 17)\n{
+wait until (blueledlight.brightness == 17 and temperaturesensor.degree >= 6)\n{
+wait until (powermeter.watt != 17 or time.hour < 30)\n{
+if (scale.weight <= 17)\n{
+if (lightsensor.brightness >= 17 or scale.weight < 24)\n{
+if (humidsensor.humidity > 17 and greenledlight.brightness != 9)\n{
+loop (18 HOUR)\n{
+loop (18 HOUR)\n{
+wait until (blueledlight.brightness == 18)\n{
+wait until (powermeter.watt != 18 and scale.weight < 47)\n{
+wait until (scale.weight <= 18 or blueledlight.brightness < 6)\n{
+if (lightsensor.brightness >= 18)\n{
+if (humidsensor.humidity > 18 or greenledlight.brightness != 79)\n{
+if (temperaturesensor.degree < 18 and redledlight.brightness >= 3)\n{
+loop (19 DAY)\n{
+loop (19 DAY)\n{
+wait until (powermeter.watt != 19)\n{
+wait until (scale.weight <= 19 and supersonicsensor.distance < 95)\n{
+wait until (lightsensor.brightness >= 19 or scale.weight <= 6)\n{
+if (humidsensor.humidity > 19)\n{
+if (temperaturesensor.degree < 19 or time.hour == 33)\n{
+if (supersonicsensor.distance == 19 and temperaturesensor.degree >= 98)\n{
+loop (20 MIN)\n{
+loop (20 MIN)\n{
+wait until (scale.weight <= 20)\n{
+wait until (lightsensor.brightness >= 20 and TV.channel > 59)\n{
+wait until (humidsensor.humidity > 20 or whiteledlight.brightness >= 87)\n{
+if (temperaturesensor.degree < 20)\n{
+if (supersonicsensor.distance == 20 or supersonicsensor.distance == 47)\n{
+if (time.hour != 20 and speaker.volume <= 55)\n{
+loop (21 SEC)\n{
+loop (21 SEC)\n{
+wait until (lightsensor.brightness >= 21)\n{
+wait until (humidsensor.humidity > 21 and time.hour >= 14)\n{
+wait until (temperaturesensor.degree < 21 or powermeter.watt > 94)\n{
+if (supersonicsensor.distance == 21)\n{
+if (time.hour != 21 or blueledlight.brightness == 13)\n{
+if (time.minute <= 21 and time.hour == 33)\n{
+loop (22 HOUR)\n{
+loop (22 HOUR)\n{
+wait until (humidsensor.humidity > 22)\n{
+wait until (temperaturesensor.degree < 22 and speaker.volume == 11)\n{
+wait until (supersonicsensor.distance == 22 or powermeter.watt == 49)\n{
+if (time.hour != 22)\n{
+if (time.minute <= 22 or redledlight.brightness != 11)\n{
+if (speaker.volume >= 22 and temperaturesensor.degree != 47)\n{
+loop (23 SEC)\n{
+loop (23 SEC)\n{
+wait until (temperaturesensor.degree < 23)\n{
+wait until (supersonicsensor.distance == 23 and powermeter.watt == 32)\n{
+wait until (time.hour != 23 or TV.volume >= 49)\n{
+if (time.minute <= 23)\n{
+if (speaker.volume >= 23 or greenledlight.brightness <= 95)\n{
+if (TV.volume > 23 and supersonicsensor.distance == 71)\n{
+loop (24 DAY)\n{
+loop (24 DAY)\n{
+wait until (supersonicsensor.distance == 24)\n{
+wait until (time.hour != 24 and lightsensor.brightness >= 13)\n{
+wait until (time.minute <= 24 or scale.weight > 28)\n{
+if (speaker.volume >= 24)\n{
+if (TV.volume > 24 or speaker.volume != 60)\n{
+if (TV.channel < 24 and lightsensor.brightness >= 66)\n{
+loop (25 SEC)\n{
+loop (25 SEC)\n{
+wait until (time.hour != 25)\n{
+wait until (time.minute <= 25 and powermeter.watt < 70)\n{
+wait until (speaker.volume >= 25 or TV.volume <= 62)\n{
+if (TV.volume > 25)\n{
+if (TV.channel < 25 or supersonicsensor.distance > 42)\n{
+if (whiteledlight.brightness == 25 and temperaturesensor.degree != 16)\n{
+loop (26 HOUR)\n{
+loop (26 HOUR)\n{
+wait until (time.minute <= 26)\n{
+wait until (speaker.volume >= 26 and time.minute > 32)\n{
+wait until (TV.volume > 26 or scale.weight >= 60)\n{
+if (TV.channel < 26)\n{
+if (whiteledlight.brightness == 26 or temperaturesensor.degree <= 41)\n{
+if (redledlight.brightness != 26 and greenledlight.brightness > 22)\n{
+loop (27 HOUR)\n{
+loop (27 HOUR)\n{
+wait until (speaker.volume >= 27)\n{
+wait until (TV.volume > 27 and blueledlight.brightness <= 59)\n{
+wait until (TV.channel < 27 or whiteledlight.brightness >= 52)\n{
+if (whiteledlight.brightness == 27)\n{
+if (redledlight.brightness != 27 or humidsensor.humidity <= 73)\n{
+if (greenledlight.brightness <= 27 and blueledlight.brightness < 92)\n{
+loop (28 HOUR)\n{
+loop (28 HOUR)\n{
+wait until (TV.volume > 28)\n{
+wait until (TV.channel < 28 and supersonicsensor.distance < 63)\n{
+wait until (whiteledlight.brightness == 28 or supersonicsensor.distance < 94)\n{
+if (redledlight.brightness != 28)\n{
+if (greenledlight.brightness <= 28 or redledlight.brightness <= 29)\n{
+if (blueledlight.brightness >= 28 and redledlight.brightness != 29)\n{
+loop (29 HOUR)\n{
+loop (29 HOUR)\n{
+wait until (TV.channel < 29)\n{
+wait until (whiteledlight.brightness == 29 and speaker.volume == 89)\n{
+wait until (redledlight.brightness != 29 or whiteledlight.brightness < 36)\n{
+if (greenledlight.brightness <= 29)\n{
+if (blueledlight.brightness >= 29 or supersonicsensor.distance >= 32)\n{
+if (powermeter.watt > 29 and whiteledlight.brightness >= 93)\n{
+loop (30 SEC)\n{
+loop (30 SEC)\n{
+wait until (whiteledlight.brightness == 30)\n{
+wait until (redledlight.brightness != 30 and TV.channel > 99)\n{
+wait until (greenledlight.brightness <= 30 or powermeter.watt == 14)\n{
+if (blueledlight.brightness >= 30)\n{
+if (powermeter.watt > 30 or time.hour != 3)\n{
+if (scale.weight < 30 and lightsensor.brightness == 60)\n{
+loop (31 MIN)\n{
+loop (31 MIN)\n{
+wait until (redledlight.brightness != 31)\n{
+wait until (greenledlight.brightness <= 31 and TV.volume == 61)\n{
+wait until (blueledlight.brightness >= 31 or redledlight.brightness >= 44)\n{
+if (powermeter.watt > 31)\n{
+if (scale.weight < 31 or supersonicsensor.distance <= 48)\n{
+if (lightsensor.brightness == 31 and lightsensor.brightness >= 72)\n{
+loop (32 HOUR)\n{
+loop (32 HOUR)\n{
+wait until (greenledlight.brightness <= 32)\n{
+wait until (blueledlight.brightness >= 32 and TV.volume == 29)\n{
+wait until (powermeter.watt > 32 or humidsensor.humidity == 49)\n{
+if (scale.weight < 32)\n{
+if (lightsensor.brightness == 32 or humidsensor.humidity <= 30)\n{
+if (humidsensor.humidity != 32 and whiteledlight.brightness == 11)\n{
+loop (33 DAY)\n{
+loop (33 DAY)\n{
+wait until (blueledlight.brightness >= 33)\n{
+wait until (powermeter.watt > 33 and time.minute == 21)\n{
+wait until (scale.weight < 33 or TV.volume == 0)\n{
+if (lightsensor.brightness == 33)\n{
+if (humidsensor.humidity != 33 or whiteledlight.brightness != 14)\n{
+if (temperaturesensor.degree <= 33 and lightsensor.brightness >= 11)\n{
+loop (34 HOUR)\n{
+loop (34 HOUR)\n{
+wait until (powermeter.watt > 34)\n{
+wait until (scale.weight < 34 and blueledlight.brightness >= 95)\n{
+wait until (lightsensor.brightness == 34 or TV.volume != 43)\n{
+if (humidsensor.humidity != 34)\n{
+if (temperaturesensor.degree <= 34 or time.hour < 37)\n{
+if (supersonicsensor.distance >= 34 and TV.channel > 42)\n{
+loop (35 HOUR)\n{
+loop (35 HOUR)\n{
+wait until (scale.weight < 35)\n{
+wait until (lightsensor.brightness == 35 and speaker.volume > 83)\n{
+wait until (humidsensor.humidity != 35 or time.minute >= 82)\n{
+if (temperaturesensor.degree <= 35)\n{
+if (supersonicsensor.distance >= 35 or powermeter.watt < 43)\n{
+if (time.hour > 35 and supersonicsensor.distance != 88)\n{
+loop (36 SEC)\n{
+loop (36 SEC)\n{
+wait until (lightsensor.brightness == 36)\n{
+wait until (humidsensor.humidity != 36 and scale.weight <= 11)\n{
+wait until (temperaturesensor.degree <= 36 or greenledlight.brightness == 17)\n{
+if (supersonicsensor.distance >= 36)\n{
+if (time.hour > 36 or humidsensor.humidity < 89)\n{
+if (time.minute < 36 and blueledlight.brightness < 86)\n{
+loop (37 SEC)\n{
+loop (37 SEC)\n{
+wait until (humidsensor.humidity != 37)\n{
+wait until (temperaturesensor.degree <= 37 and blueledlight.brightness >= 62)\n{
+wait until (supersonicsensor.distance >= 37 or speaker.volume >= 98)\n{
+if (time.hour > 37)\n{
+if (time.minute < 37 or greenledlight.brightness < 51)\n{
+if (speaker.volume == 37 and scale.weight != 65)\n{
+loop (38 SEC)\n{
+loop (38 SEC)\n{
+wait until (temperaturesensor.degree <= 38)\n{
+wait until (supersonicsensor.distance >= 38 and redledlight.brightness >= 47)\n{
+wait until (time.hour > 38 or blueledlight.brightness >= 78)\n{
+if (time.minute < 38)\n{
+if (speaker.volume == 38 or lightsensor.brightness == 49)\n{
+if (TV.volume != 38 and humidsensor.humidity == 75)\n{
+loop (39 MIN)\n{
+loop (39 MIN)\n{
+wait until (supersonicsensor.distance >= 39)\n{
+wait until (time.hour > 39 and redledlight.brightness > 65)\n{
+wait until (time.minute < 39 or TV.volume == 43)\n{
+if (speaker.volume == 39)\n{
+if (TV.volume != 39 or greenledlight.brightness == 34)\n{
+if (TV.channel <= 39 and lightsensor.brightness != 5)\n{
+loop (40 SEC)\n{
+loop (40 SEC)\n{
+wait until (time.hour > 40)\n{
+wait until (time.minute < 40 and whiteledlight.brightness >= 36)\n{
+wait until (speaker.volume == 40 or speaker.volume == 87)\n{
+if (TV.volume != 40)\n{
+if (TV.channel <= 40 or lightsensor.brightness > 21)\n{
+if (whiteledlight.brightness >= 40 and temperaturesensor.degree < 50)\n{
+loop (41 DAY)\n{
+loop (41 DAY)\n{
+wait until (time.minute < 41)\n{
+wait until (speaker.volume == 41 and humidsensor.humidity < 26)\n{
+wait until (TV.volume != 41 or whiteledlight.brightness != 87)\n{
+if (TV.channel <= 41)\n{
+if (whiteledlight.brightness >= 41 or speaker.volume <= 99)\n{
+if (redledlight.brightness > 41 and lightsensor.brightness > 53)\n{
+loop (42 SEC)\n{
+loop (42 SEC)\n{
+wait until (speaker.volume == 42)\n{
+wait until (TV.volume != 42 and time.hour < 41)\n{
+wait until (TV.channel <= 42 or scale.weight != 58)\n{
+if (whiteledlight.brightness >= 42)\n{
+if (redledlight.brightness > 42 or powermeter.watt < 56)\n{
+if (greenledlight.brightness < 42 and greenledlight.brightness == 23)\n{
+loop (43 DAY)\n{
+loop (43 DAY)\n{
+wait until (TV.volume != 43)\n{
+wait until (TV.channel <= 43 and whiteledlight.brightness <= 71)\n{
+wait until (whiteledlight.brightness >= 43 or supersonicsensor.distance > 0)\n{
+if (redledlight.brightness > 43)\n{
+if (greenledlight.brightness < 43 or TV.channel <= 41)\n{
+if (blueledlight.brightness == 43 and TV.volume <= 7)\n{
+loop (44 DAY)\n{
+loop (44 DAY)\n{
+wait until (TV.channel <= 44)\n{
+wait until (whiteledlight.brightness >= 44 and speaker.volume >= 87)\n{
+wait until (redledlight.brightness > 44 or scale.weight == 45)\n{
+if (greenledlight.brightness < 44)\n{
+if (blueledlight.brightness == 44 or speaker.volume < 89)\n{
+if (powermeter.watt != 44 and TV.volume >= 92)\n{
+loop (45 SEC)\n{
+loop (45 SEC)\n{
+wait until (whiteledlight.brightness >= 45)\n{
+wait until (redledlight.brightness > 45 and blueledlight.brightness > 86)\n{
+wait until (greenledlight.brightness < 45 or temperaturesensor.degree > 20)\n{
+if (blueledlight.brightness == 45)\n{
+if (powermeter.watt != 45 or greenledlight.brightness < 23)\n{
+if (scale.weight <= 45 and whiteledlight.brightness == 42)\n{
+loop (46 MIN)\n{
+loop (46 MIN)\n{
+wait until (redledlight.brightness > 46)\n{
+wait until (greenledlight.brightness < 46 and lightsensor.brightness < 17)\n{
+wait until (blueledlight.brightness == 46 or time.minute == 43)\n{
+if (powermeter.watt != 46)\n{
+if (scale.weight <= 46 or time.hour != 13)\n{
+if (lightsensor.brightness >= 46 and temperaturesensor.degree != 25)\n{
+loop (47 MIN)\n{
+loop (47 MIN)\n{
+wait until (greenledlight.brightness < 47)\n{
+wait until (blueledlight.brightness == 47 and time.hour < 30)\n{
+wait until (powermeter.watt != 47 or redledlight.brightness <= 58)\n{
+if (scale.weight <= 47)\n{
+if (lightsensor.brightness >= 47 or time.hour <= 23)\n{
+if (humidsensor.humidity > 47 and temperaturesensor.degree != 67)\n{
+loop (48 SEC)\n{
+loop (48 SEC)\n{
+wait until (blueledlight.brightness == 48)\n{
+wait until (powermeter.watt != 48 and redledlight.brightness < 13)\n{
+wait until (scale.weight <= 48 or supersonicsensor.distance >= 69)\n{
+if (lightsensor.brightness >= 48)\n{
+if (humidsensor.humidity > 48 or time.minute <= 38)\n{
+if (temperaturesensor.degree < 48 and powermeter.watt > 73)\n{
+loop (49 HOUR)\n{
+loop (49 HOUR)\n{
+wait until (powermeter.watt != 49)\n{
+wait until (scale.weight <= 49 and time.hour == 77)\n{
+wait until (lightsensor.brightness >= 49 or blueledlight.brightness >= 19)\n{
+if (humidsensor.humidity > 49)\n{
+if (temperaturesensor.degree < 49 or scale.weight != 9)\n{
+if (supersonicsensor.distance == 49 and powermeter.watt == 94)\n{
+loop (50 HOUR)\n{
+loop (50 HOUR)\n{
+wait until (scale.weight <= 50)\n{
+wait until (lightsensor.brightness >= 50 and supersonicsensor.distance != 33)\n{
+wait until (humidsensor.humidity > 50 or time.minute >= 70)\n{
+if (temperaturesensor.degree < 50)\n{
+if (supersonicsensor.distance == 50 or TV.channel > 2)\n{
+if (time.hour != 50 and scale.weight >= 5)\n{
+loop (51 DAY)\n{
+loop (51 DAY)\n{
+wait until (lightsensor.brightness >= 51)\n{
+wait until (humidsensor.humidity > 51 and scale.weight >= 35)\n{
+wait until (temperaturesensor.degree < 51 or time.hour <= 99)\n{
+if (supersonicsensor.distance == 51)\n{
+if (time.hour != 51 or TV.channel < 42)\n{
+if (time.minute <= 51 and lightsensor.brightness != 95)\n{
+loop (52 MIN)\n{
+loop (52 MIN)\n{
+wait until (humidsensor.humidity > 52)\n{
+wait until (temperaturesensor.degree < 52 and lightsensor.brightness == 95)\n{
+wait until (supersonicsensor.distance == 52 or powermeter.watt >= 94)\n{
+if (time.hour != 52)\n{
+if (time.minute <= 52 or humidsensor.humidity < 81)\n{
+if (speaker.volume >= 52 and TV.channel <= 85)\n{
+loop (53 SEC)\n{
+loop (53 SEC)\n{
+wait until (temperaturesensor.degree < 53)\n{
+wait until (supersonicsensor.distance == 53 and supersonicsensor.distance < 22)\n{
+wait until (time.hour != 53 or time.minute != 92)\n{
+if (time.minute <= 53)\n{
+if (speaker.volume >= 53 or redledlight.brightness == 79)\n{
+if (TV.volume > 53 and whiteledlight.brightness > 28)\n{
+loop (54 SEC)\n{
+loop (54 SEC)\n{
+wait until (supersonicsensor.distance == 54)\n{
+wait until (time.hour != 54 and lightsensor.brightness == 94)\n{
+wait until (time.minute <= 54 or TV.channel <= 90)\n{
+if (speaker.volume >= 54)\n{
+if (TV.volume > 54 or humidsensor.humidity == 75)\n{
+if (TV.channel < 54 and supersonicsensor.distance < 80)\n{
+loop (55 DAY)\n{
+loop (55 DAY)\n{
+wait until (time.hour != 55)\n{
+wait until (time.minute <= 55 and lightsensor.brightness < 11)\n{
+wait until (speaker.volume >= 55 or whiteledlight.brightness >= 47)\n{
+if (TV.volume > 55)\n{
+if (TV.channel < 55 or speaker.volume == 84)\n{
+if (whiteledlight.brightness == 55 and blueledlight.brightness < 76)\n{
+loop (56 HOUR)\n{
+loop (56 HOUR)\n{
+wait until (time.minute <= 56)\n{
+wait until (speaker.volume >= 56 and redledlight.brightness >= 27)\n{
+wait until (TV.volume > 56 or TV.channel >= 92)\n{
+if (TV.channel < 56)\n{
+if (whiteledlight.brightness == 56 or scale.weight == 61)\n{
+if (redledlight.brightness != 56 and speaker.volume != 70)\n{
+loop (57 SEC)\n{
+loop (57 SEC)\n{
+wait until (speaker.volume >= 57)\n{
+wait until (TV.volume > 57 and speaker.volume <= 3)\n{
+wait until (TV.channel < 57 or TV.channel < 31)\n{
+if (whiteledlight.brightness == 57)\n{
+if (redledlight.brightness != 57 or time.minute < 95)\n{
+if (greenledlight.brightness <= 57 and blueledlight.brightness >= 12)\n{
+loop (58 MIN)\n{
+loop (58 MIN)\n{
+wait until (TV.volume > 58)\n{
+wait until (TV.channel < 58 and greenledlight.brightness > 43)\n{
+wait until (whiteledlight.brightness == 58 or redledlight.brightness <= 20)\n{
+if (redledlight.brightness != 58)\n{
+if (greenledlight.brightness <= 58 or time.minute != 17)\n{
+if (blueledlight.brightness >= 58 and supersonicsensor.distance != 70)\n{
+loop (59 SEC)\n{
+loop (59 SEC)\n{
+wait until (TV.channel < 59)\n{
+wait until (whiteledlight.brightness == 59 and temperaturesensor.degree > 31)\n{
+wait until (redledlight.brightness != 59 or lightsensor.brightness <= 26)\n{
+if (greenledlight.brightness <= 59)\n{
+if (blueledlight.brightness >= 59 or greenledlight.brightness <= 58)\n{
+if (powermeter.watt > 59 and greenledlight.brightness != 32)\n{
+loop (60 HOUR)\n{
+loop (60 HOUR)\n{
+wait until (whiteledlight.brightness == 60)\n{
+wait until (redledlight.brightness != 60 and speaker.volume >= 6)\n{
+wait until (greenledlight.brightness <= 60 or TV.channel >= 61)\n{
+if (blueledlight.brightness >= 60)\n{
+if (powermeter.watt > 60 or temperaturesensor.degree == 15)\n{
+if (scale.weight < 60 and TV.channel >= 81)\n{
+loop (1 SEC)\n{
+loop (1 SEC)\n{
+wait until (redledlight.brightness != 61)\n{
+wait until (greenledlight.brightness <= 61 and scale.weight >= 95)\n{
+wait until (blueledlight.brightness >= 61 or lightsensor.brightness < 10)\n{
+if (powermeter.watt > 61)\n{
+if (scale.weight < 61 or scale.weight < 89)\n{
+if (lightsensor.brightness == 61 and redledlight.brightness == 74)\n{
+loop (2 DAY)\n{
+loop (2 DAY)\n{
+wait until (greenledlight.brightness <= 62)\n{
+wait until (blueledlight.brightness >= 62 and powermeter.watt < 94)\n{
+wait until (powermeter.watt > 62 or time.hour != 90)\n{
+if (scale.weight < 62)\n{
+if (lightsensor.brightness == 62 or greenledlight.brightness != 35)\n{
+if (humidsensor.humidity != 62 and blueledlight.brightness == 60)\n{
+loop (3 MIN)\n{
+loop (3 MIN)\n{
+wait until (blueledlight.brightness >= 63)\n{
+wait until (powermeter.watt > 63 and lightsensor.brightness < 78)\n{
+wait until (scale.weight < 63 or scale.weight != 47)\n{
+if (lightsensor.brightness == 63)\n{
+if (humidsensor.humidity != 63 or whiteledlight.brightness == 90)\n{
+if (temperaturesensor.degree <= 63 and TV.volume <= 45)\n{
+loop (4 SEC)\n{
+loop (4 SEC)\n{
+wait until (powermeter.watt > 64)\n{
+wait until (scale.weight < 64 and powermeter.watt == 82)\n{
+wait until (lightsensor.brightness == 64 or speaker.volume <= 9)\n{
+if (humidsensor.humidity != 64)\n{
+if (temperaturesensor.degree <= 64 or lightsensor.brightness != 91)\n{
+if (supersonicsensor.distance >= 64 and redledlight.brightness >= 18)\n{
+loop (5 DAY)\n{
+loop (5 DAY)\n{
+wait until (scale.weight < 65)\n{
+wait until (lightsensor.brightness == 65 and supersonicsensor.distance == 79)\n{
+wait until (humidsensor.humidity != 65 or greenledlight.brightness > 92)\n{
+if (temperaturesensor.degree <= 65)\n{
+if (supersonicsensor.distance >= 65 or humidsensor.humidity < 26)\n{
+if (time.hour > 65 and redledlight.brightness > 11)\n{
+loop (6 SEC)\n{
+loop (6 SEC)\n{
+wait until (lightsensor.brightness == 66)\n{
+wait until (humidsensor.humidity != 66 and blueledlight.brightness == 15)\n{
+wait until (temperaturesensor.degree <= 66 or time.hour != 6)\n{
+if (supersonicsensor.distance >= 66)\n{
+if (time.hour > 66 or redledlight.brightness <= 14)\n{
+if (time.minute < 66 and time.minute <= 23)\n{
+loop (7 SEC)\n{
+loop (7 SEC)\n{
+wait until (humidsensor.humidity != 67)\n{
+wait until (temperaturesensor.degree <= 67 and scale.weight >= 1)\n{
+wait until (supersonicsensor.distance >= 67 or greenledlight.brightness < 78)\n{
+if (time.hour > 67)\n{
+if (time.minute < 67 or TV.channel <= 66)\n{
+if (speaker.volume == 67 and redledlight.brightness >= 37)\n{
+loop (8 MIN)\n{
+loop (8 MIN)\n{
+wait until (temperaturesensor.degree <= 68)\n{
+wait until (supersonicsensor.distance >= 68 and greenledlight.brightness != 97)\n{
+wait until (time.hour > 68 or time.minute == 2)\n{
+if (time.minute < 68)\n{
+if (speaker.volume == 68 or time.minute == 65)\n{
+if (TV.volume != 68 and powermeter.watt == 73)\n{
+loop (9 SEC)\n{
+loop (9 SEC)\n{
+wait until (supersonicsensor.distance >= 69)\n{
+wait until (time.hour > 69 and lightsensor.brightness <= 21)\n{
+wait until (time.minute < 69 or scale.weight >= 82)\n{
+if (speaker.volume == 69)\n{
+if (TV.volume != 69 or speaker.volume < 84)\n{
+if (TV.channel <= 69 and powermeter.watt < 11)\n{
+loop (10 MIN)\n{
+loop (10 MIN)\n{
+wait until (time.hour > 70)\n{
+wait until (time.minute < 70 and time.minute > 34)\n{
+wait until (speaker.volume == 70 or speaker.volume <= 23)\n{
+if (TV.volume != 70)\n{
+if (TV.channel <= 70 or humidsensor.humidity != 85)\n{
+if (whiteledlight.brightness >= 70 and powermeter.watt > 52)\n{
+loop (11 DAY)\n{
+loop (11 DAY)\n{
+wait until (time.minute < 71)\n{
+wait until (speaker.volume == 71 and lightsensor.brightness < 20)\n{
+wait until (TV.volume != 71 or humidsensor.humidity >= 85)\n{
+if (TV.channel <= 71)\n{
+if (whiteledlight.brightness >= 71 or humidsensor.humidity <= 38)\n{
+if (redledlight.brightness > 71 and scale.weight <= 19)\n{
+loop (12 SEC)\n{
+loop (12 SEC)\n{
+wait until (speaker.volume == 72)\n{
+wait until (TV.volume != 72 and humidsensor.humidity < 17)\n{
+wait until (TV.channel <= 72 or scale.weight == 80)\n{
+if (whiteledlight.brightness >= 72)\n{
+if (redledlight.brightness > 72 or speaker.volume < 92)\n{
+if (greenledlight.brightness < 72 and blueledlight.brightness <= 58)\n{
+loop (13 SEC)\n{
+loop (13 SEC)\n{
+wait until (TV.volume != 73)\n{
+wait until (TV.channel <= 73 and whiteledlight.brightness <= 87)\n{
+wait until (whiteledlight.brightness >= 73 or powermeter.watt == 74)\n{
+if (redledlight.brightness > 73)\n{
+if (greenledlight.brightness < 73 or blueledlight.brightness == 6)\n{
+if (blueledlight.brightness == 73 and lightsensor.brightness < 66)\n{
+loop (14 SEC)\n{
+loop (14 SEC)\n{
+wait until (TV.channel <= 74)\n{
+wait until (whiteledlight.brightness >= 74 and humidsensor.humidity < 40)\n{
+wait until (redledlight.brightness > 74 or time.minute == 88)\n{
+if (greenledlight.brightness < 74)\n{
+if (blueledlight.brightness == 74 or temperaturesensor.degree < 91)\n{
+if (powermeter.watt != 74 and time.minute >= 52)\n{
+loop (15 MIN)\n{
+loop (15 MIN)\n{
+wait until (whiteledlight.brightness >= 75)\n{
+wait until (redledlight.brightness > 75 and time.minute < 61)\n{
+wait until (greenledlight.brightness < 75 or TV.channel != 51)\n{
+if (blueledlight.brightness == 75)\n{
+if (powermeter.watt != 75 or humidsensor.humidity == 4)\n{
+if (scale.weight <= 75 and whiteledlight.brightness <= 87)\n{
+loop (16 HOUR)\n{
+loop (16 HOUR)\n{
+wait until (redledlight.brightness > 76)\n{
+wait until (greenledlight.brightness < 76 and whiteledlight.brightness < 19)\n{
+wait until (blueledlight.brightness == 76 or TV.volume > 94)\n{
+if (powermeter.watt != 76)\n{
+if (scale.weight <= 76 or humidsensor.humidity >= 43)\n{
+if (lightsensor.brightness >= 76 and time.minute == 85)\n{
+loop (17 MIN)\n{
+loop (17 MIN)\n{
+wait until (greenledlight.brightness < 77)\n{
+wait until (blueledlight.brightness == 77 and whiteledlight.brightness != 58)\n{
+wait until (powermeter.watt != 77 or time.minute > 9)\n{
+if (scale.weight <= 77)\n{
+if (lightsensor.brightness >= 77 or speaker.volume != 31)\n{
+if (humidsensor.humidity > 77 and redledlight.brightness != 12)\n{
+loop (18 MIN)\n{
+loop (18 MIN)\n{
+wait until (blueledlight.brightness == 78)\n{
+wait until (powermeter.watt != 78 and redledlight.brightness < 4)\n{
+wait until (scale.weight <= 78 or speaker.volume <= 22)\n{
+if (lightsensor.brightness >= 78)\n{
+if (humidsensor.humidity > 78 or TV.volume <= 72)\n{
+if (temperaturesensor.degree < 78 and scale.weight == 76)\n{
+loop (19 SEC)\n{
+loop (19 SEC)\n{
+wait until (powermeter.watt != 79)\n{
+wait until (scale.weight <= 79 and greenledlight.brightness > 6)\n{
+wait until (lightsensor.brightness >= 79 or powermeter.watt > 73)\n{
+if (humidsensor.humidity > 79)\n{
+if (temperaturesensor.degree < 79 or scale.weight <= 50)\n{
+if (supersonicsensor.distance == 79 and supersonicsensor.distance < 82)\n{
+loop (20 MIN)\n{
+loop (20 MIN)\n{
+wait until (scale.weight <= 80)\n{
+wait until (lightsensor.brightness >= 80 and speaker.volume == 32)\n{
+wait until (humidsensor.humidity > 80 or whiteledlight.brightness == 51)\n{
+if (temperaturesensor.degree < 80)\n{
+if (supersonicsensor.distance == 80 or redledlight.brightness != 63)\n{
+if (time.hour != 80 and greenledlight.brightness == 71)\n{
+loop (21 DAY)\n{
+loop (21 DAY)\n{
+wait until (lightsensor.brightness >= 81)\n{
+wait until (humidsensor.humidity > 81 and time.hour > 59)\n{
+wait until (temperaturesensor.degree < 81 or greenledlight.brightness < 13)\n{
+if (supersonicsensor.distance == 81)\n{
+if (time.hour != 81 or blueledlight.brightness == 59)\n{
+if (time.minute <= 81 and lightsensor.brightness != 15)\n{
+loop (22 SEC)\n{
+loop (22 SEC)\n{
+wait until (humidsensor.humidity > 82)\n{
+wait until (temperaturesensor.degree < 82 and scale.weight != 22)\n{
+wait until (supersonicsensor.distance == 82 or TV.volume < 93)\n{
+if (time.hour != 82)\n{
+if (time.minute <= 82 or TV.channel < 28)\n{
+if (speaker.volume >= 82 and temperaturesensor.degree < 65)\n{
+loop (23 DAY)\n{
+loop (23 DAY)\n{
+wait until (temperaturesensor.degree < 83)\n{
+wait until (supersonicsensor.distance == 83 and lightsensor.brightness >= 69)\n{
+wait until (time.hour != 83 or powermeter.watt >= 55)\n{
+if (time.minute <= 83)\n{
+if (speaker.volume >= 83 or powermeter.watt >= 36)\n{
+if (TV.volume > 83 and TV.volume == 1)\n{
+loop (24 DAY)\n{
+loop (24 DAY)\n{
+wait until (supersonicsensor.distance == 84)\n{
+wait until (time.hour != 84 and whiteledlight.brightness >= 54)\n{
+wait until (time.minute <= 84 or scale.weight == 28)\n{
+if (speaker.volume >= 84)\n{
+if (TV.volume > 84 or powermeter.watt <= 53)\n{
+if (TV.channel < 84 and whiteledlight.brightness > 84)\n{
+loop (25 MIN)\n{
+loop (25 MIN)\n{
+wait until (time.hour != 85)\n{
+wait until (time.minute <= 85 and time.hour <= 21)\n{
+wait until (speaker.volume >= 85 or greenledlight.brightness <= 10)\n{
+if (TV.volume > 85)\n{
+if (TV.channel < 85 or supersonicsensor.distance >= 84)\n{
+if (whiteledlight.brightness == 85 and time.hour <= 12)\n{
+loop (26 HOUR)\n{
+loop (26 HOUR)\n{
+wait until (time.minute <= 86)\n{
+wait until (speaker.volume >= 86 and powermeter.watt <= 12)\n{
+wait until (TV.volume > 86 or greenledlight.brightness > 25)\n{
+if (TV.channel < 86)\n{
+if (whiteledlight.brightness == 86 or scale.weight <= 69)\n{
+if (redledlight.brightness != 86 and blueledlight.brightness >= 3)\n{
+loop (27 HOUR)\n{
+loop (27 HOUR)\n{
+wait until (speaker.volume >= 87)\n{
+wait until (TV.volume > 87 and temperaturesensor.degree == 14)\n{
+wait until (TV.channel < 87 or temperaturesensor.degree < 68)\n{
+if (whiteledlight.brightness == 87)\n{
+if (redledlight.brightness != 87 or greenledlight.brightness < 13)\n{
+if (greenledlight.brightness <= 87 and lightsensor.brightness != 54)\n{
+loop (28 DAY)\n{
+loop (28 DAY)\n{
+wait until (TV.volume > 88)\n{
+wait until (TV.channel < 88 and lightsensor.brightness > 23)\n{
+wait until (whiteledlight.brightness == 88 or greenledlight.brightness > 41)\n{
+if (redledlight.brightness != 88)\n{
+if (greenledlight.brightness <= 88 or scale.weight > 34)\n{
+if (blueledlight.brightness >= 88 and humidsensor.humidity > 43)\n{
+loop (29 DAY)\n{
+loop (29 DAY)\n{
+wait until (TV.channel < 89)\n{
+wait until (whiteledlight.brightness == 89 and TV.volume <= 6)\n{
+wait until (redledlight.brightness != 89 or temperaturesensor.degree == 67)\n{
+if (greenledlight.brightness <= 89)\n{
+if (blueledlight.brightness >= 89 or temperaturesensor.degree != 0)\n{
+if (powermeter.watt > 89 and blueledlight.brightness < 55)\n{
+loop (30 SEC)\n{
+loop (30 SEC)\n{
+wait until (whiteledlight.brightness == 90)\n{
+wait until (redledlight.brightness != 90 and speaker.volume <= 27)\n{
+wait until (greenledlight.brightness <= 90 or temperaturesensor.degree == 0)\n{
+if (blueledlight.brightness >= 90)\n{
+if (powermeter.watt > 90 or TV.volume > 43)\n{
+if (scale.weight < 90 and greenledlight.brightness <= 38)\n{
+loop (31 MIN)\n{
+loop (31 MIN)\n{
+wait until (redledlight.brightness != 91)\n{
+wait until (greenledlight.brightness <= 91 and speaker.volume == 95)\n{
+wait until (blueledlight.brightness >= 91 or whiteledlight.brightness >= 41)\n{
+if (powermeter.watt > 91)\n{
+if (scale.weight < 91 or greenledlight.brightness >= 37)\n{
+if (lightsensor.brightness == 91 and supersonicsensor.distance <= 9)\n{
+loop (32 SEC)\n{
+loop (32 SEC)\n{
+wait until (greenledlight.brightness <= 92)\n{
+wait until (blueledlight.brightness >= 92 and redledlight.brightness != 2)\n{
+wait until (powermeter.watt > 92 or greenledlight.brightness < 68)\n{
+if (scale.weight < 92)\n{
+if (lightsensor.brightness == 92 or redledlight.brightness >= 40)\n{
+if (humidsensor.humidity != 92 and greenledlight.brightness < 21)\n{
+loop (33 SEC)\n{
+loop (33 SEC)\n{
+wait until (blueledlight.brightness >= 93)\n{
+wait until (powermeter.watt > 93 and blueledlight.brightness > 62)\n{
+wait until (scale.weight < 93 or greenledlight.brightness >= 32)\n{
+if (lightsensor.brightness == 93)\n{
+if (humidsensor.humidity != 93 or scale.weight == 25)\n{
+if (temperaturesensor.degree <= 93 and greenledlight.brightness == 6)\n{
+loop (34 SEC)\n{
+loop (34 SEC)\n{
+wait until (powermeter.watt > 94)\n{
+wait until (scale.weight < 94 and redledlight.brightness < 68)\n{
+wait until (lightsensor.brightness == 94 or powermeter.watt < 13)\n{
+if (humidsensor.humidity != 94)\n{
+if (temperaturesensor.degree <= 94 or blueledlight.brightness >= 81)\n{
+if (supersonicsensor.distance >= 94 and humidsensor.humidity < 88)\n{
+loop (35 DAY)\n{
+loop (35 DAY)\n{
+wait until (scale.weight < 95)\n{
+wait until (lightsensor.brightness == 95 and time.hour == 26)\n{
+wait until (humidsensor.humidity != 95 or humidsensor.humidity != 38)\n{
+if (temperaturesensor.degree <= 95)\n{
+if (supersonicsensor.distance >= 95 or whiteledlight.brightness >= 58)\n{
+if (time.hour > 95 and time.minute == 61)\n{
+loop (36 DAY)\n{
+loop (36 DAY)\n{
+wait until (lightsensor.brightness == 96)\n{
+wait until (humidsensor.humidity != 96 and blueledlight.brightness >= 93)\n{
+wait until (temperaturesensor.degree <= 96 or powermeter.watt >= 92)\n{
+if (supersonicsensor.distance >= 96)\n{
+if (time.hour > 96 or scale.weight >= 68)\n{
+if (time.minute < 96 and TV.volume > 99)\n{
+loop (37 MIN)\n{
+loop (37 MIN)\n{
+wait until (humidsensor.humidity != 97)\n{
+wait until (temperaturesensor.degree <= 97 and whiteledlight.brightness < 84)\n{
+wait until (supersonicsensor.distance >= 97 or supersonicsensor.distance != 38)\n{
+if (time.hour > 97)\n{
+if (time.minute < 97 or blueledlight.brightness == 89)\n{
+if (speaker.volume == 97 and blueledlight.brightness <= 78)\n{
+loop (38 HOUR)\n{
+loop (38 HOUR)\n{
+wait until (temperaturesensor.degree <= 98)\n{
+wait until (supersonicsensor.distance >= 98 and TV.volume == 15)\n{
+wait until (time.hour > 98 or whiteledlight.brightness != 1)\n{
+if (time.minute < 98)\n{
+if (speaker.volume == 98 or TV.volume == 0)\n{
+if (TV.volume != 98 and temperaturesensor.degree >= 17)\n{
+loop (39 HOUR)\n{
+loop (39 HOUR)\n{
+wait until (supersonicsensor.distance >= 99)\n{
+wait until (time.hour > 99 and lightsensor.brightness < 72)\n{
+wait until (time.minute < 99 or TV.volume >= 5)\n{
+if (speaker.volume == 99)\n{
+if (TV.volume != 99 or lightsensor.brightness >= 31)\n{
+if (TV.channel <= 99 and temperaturesensor.degree != 38)\n{
+loop (40 SEC)\n{
+loop (40 SEC)\n{
+wait until (time.hour > 0)\n{
+wait until (time.minute < 0 and greenledlight.brightness != 22)\n{
+wait until (speaker.volume == 0 or humidsensor.humidity > 25)\n{
+if (TV.volume != 0)\n{
+if (TV.channel <= 0 or TV.channel > 40)\n{
+if (whiteledlight.brightness >= 0 and TV.volume < 37)\n{
+loop (41 DAY)\n{
+loop (41 DAY)\n{
+wait until (time.minute < 1)\n{
+wait until (speaker.volume == 1 and time.hour == 42)\n{
+wait until (TV.volume != 1 or TV.channel >= 59)\n{
+if (TV.channel <= 1)\n{
+if (whiteledlight.brightness >= 1 or scale.weight == 28)\n{
+if (redledlight.brightness > 1 and blueledlight.brightness != 75)\n{
+loop (42 SEC)\n{
+loop (42 SEC)\n{
+wait until (speaker.volume == 2)\n{
+wait until (TV.volume != 2 and speaker.volume >= 52)\n{
+wait until (TV.channel <= 2 or scale.weight == 46)\n{
+if (whiteledlight.brightness >= 2)\n{
+if (redledlight.brightness > 2 or humidsensor.humidity == 87)\n{
+if (greenledlight.brightness < 2 and time.hour == 99)\n{
+loop (43 SEC)\n{
+loop (43 SEC)\n{
+wait until (TV.volume != 3)\n{
+wait until (TV.channel <= 3 and whiteledlight.brightness <= 1)\n{
+wait until (whiteledlight.brightness >= 3 or whiteledlight.brightness != 16)\n{
+if (redledlight.brightness > 3)\n{
+if (greenledlight.brightness < 3 or speaker.volume <= 54)\n{
+if (blueledlight.brightness == 3 and speaker.volume < 12)\n{
+loop (44 HOUR)\n{
+loop (44 HOUR)\n{
+wait until (TV.channel <= 4)\n{
+wait until (whiteledlight.brightness >= 4 and greenledlight.brightness > 46)\n{
+wait until (redledlight.brightness > 4 or powermeter.watt > 96)\n{
+if (greenledlight.brightness < 4)\n{
+if (blueledlight.brightness == 4 or TV.volume <= 49)\n{
+if (powermeter.watt != 4 and speaker.volume < 8)\n{
+loop (45 HOUR)\n{
+loop (45 HOUR)\n{
+wait until (whiteledlight.brightness >= 5)\n{
+wait until (redledlight.brightness > 5 and humidsensor.humidity >= 48)\n{
+wait until (greenledlight.brightness < 5 or powermeter.watt <= 88)\n{
+if (blueledlight.brightness == 5)\n{
+if (powermeter.watt != 5 or TV.volume < 84)\n{
+if (scale.weight <= 5 and scale.weight >= 1)\n{
+loop (46 DAY)\n{
+loop (46 DAY)\n{
+wait until (redledlight.brightness > 6)\n{
+wait until (greenledlight.brightness < 6 and speaker.volume < 1)\n{
+wait until (blueledlight.brightness == 6 or greenledlight.brightness != 47)\n{
+if (powermeter.watt != 6)\n{
+if (scale.weight <= 6 or temperaturesensor.degree != 69)\n{
+if (lightsensor.brightness >= 6 and blueledlight.brightness != 62)\n{
+loop (47 MIN)\n{
+loop (47 MIN)\n{
+wait until (greenledlight.brightness < 7)\n{
+wait until (blueledlight.brightness == 7 and humidsensor.humidity < 91)\n{
+wait until (powermeter.watt != 7 or whiteledlight.brightness <= 49)\n{
+if (scale.weight <= 7)\n{
+if (lightsensor.brightness >= 7 or scale.weight <= 58)\n{
+if (humidsensor.humidity > 7 and humidsensor.humidity == 65)\n{
+loop (48 DAY)\n{
+loop (48 DAY)\n{
+wait until (blueledlight.brightness == 8)\n{
+wait until (powermeter.watt != 8 and whiteledlight.brightness > 89)\n{
+wait until (scale.weight <= 8 or TV.channel <= 56)\n{
+if (lightsensor.brightness >= 8)\n{
+if (humidsensor.humidity > 8 or whiteledlight.brightness == 79)\n{
+if (temperaturesensor.degree < 8 and humidsensor.humidity == 74)\n{
+loop (49 SEC)\n{
+loop (49 SEC)\n{
+wait until (powermeter.watt != 9)\n{
+wait until (scale.weight <= 9 and supersonicsensor.distance >= 81)\n{
+wait until (lightsensor.brightness >= 9 or time.minute != 70)\n{
+if (humidsensor.humidity > 9)\n{
+if (temperaturesensor.degree < 9 or humidsensor.humidity != 54)\n{
+if (supersonicsensor.distance == 9 and greenledlight.brightness < 24)\n{
+loop (50 HOUR)\n{
+loop (50 HOUR)\n{
+wait until (scale.weight <= 10)\n{
+wait until (lightsensor.brightness >= 10 and greenledlight.brightness < 18)\n{
+wait until (humidsensor.humidity > 10 or greenledlight.brightness <= 67)\n{
+if (temperaturesensor.degree < 10)\n{
+if (supersonicsensor.distance == 10 or supersonicsensor.distance == 48)\n{
+if (time.hour != 10 and humidsensor.humidity > 94)\n{
+loop (51 HOUR)\n{
+loop (51 HOUR)\n{
+wait until (lightsensor.brightness >= 11)\n{
+wait until (humidsensor.humidity > 11 and redledlight.brightness <= 18)\n{
+wait until (temperaturesensor.degree < 11 or powermeter.watt <= 74)\n{
+if (supersonicsensor.distance == 11)\n{
+if (time.hour != 11 or lightsensor.brightness > 63)\n{
+if (time.minute <= 11 and scale.weight < 57)\n{
+loop (52 DAY)\n{
+loop (52 DAY)\n{
+wait until (humidsensor.humidity > 12)\n{
+wait until (temperaturesensor.degree < 12 and supersonicsensor.distance >= 44)\n{
+wait until (supersonicsensor.distance == 12 or blueledlight.brightness > 14)\n{
+if (time.hour != 12)\n{
+if (time.minute <= 12 or TV.volume <= 3)\n{
+if (speaker.volume >= 12 and humidsensor.humidity != 89)\n{
+loop (53 MIN)\n{
+loop (53 MIN)\n{
+wait until (temperaturesensor.degree < 13)\n{
+wait until (supersonicsensor.distance == 13 and whiteledlight.brightness >= 36)\n{
+wait until (time.hour != 13 or redledlight.brightness > 77)\n{
+if (time.minute <= 13)\n{
+if (speaker.volume >= 13 or humidsensor.humidity <= 54)\n{
+if (TV.volume > 13 and powermeter.watt <= 97)\n{
+loop (54 MIN)\n{
+loop (54 MIN)\n{
+wait until (supersonicsensor.distance == 14)\n{
+wait until (time.hour != 14 and TV.volume < 88)\n{
+wait until (time.minute <= 14 or time.minute <= 60)\n{
+if (speaker.volume >= 14)\n{
+if (TV.volume > 14 or scale.weight != 92)\n{
+if (TV.channel < 14 and whiteledlight.brightness != 42)\n{
+loop (55 HOUR)\n{
+loop (55 HOUR)\n{
+wait until (time.hour != 15)\n{
+wait until (time.minute <= 15 and powermeter.watt == 91)\n{
+wait until (speaker.volume >= 15 or speaker.volume != 97)\n{
+if (TV.volume > 15)\n{
+if (TV.channel < 15 or speaker.volume < 42)\n{
+if (whiteledlight.brightness == 15 and redledlight.brightness >= 39)\n{
+loop (56 SEC)\n{
+loop (56 SEC)\n{
+wait until (time.minute <= 16)\n{
+wait until (speaker.volume >= 16 and TV.volume >= 63)\n{
+wait until (TV.volume > 16 or TV.volume == 8)\n{
+if (TV.channel < 16)\n{
+if (whiteledlight.brightness == 16 or lightsensor.brightness <= 20)\n{
+if (redledlight.brightness != 16 and TV.volume <= 93)\n{
+loop (57 DAY)\n{
+loop (57 DAY)\n{
+wait until (speaker.volume >= 17)\n{
+wait until (TV.volume > 17 and greenledlight.brightness > 85)\n{
+wait until (TV.channel < 17 or humidsensor.humidity < 14)\n{
+if (whiteledlight.brightness == 17)\n{
+if (redledlight.brightness != 17 or lightsensor.brightness != 52)\n{
+if (greenledlight.brightness <= 17 and temperaturesensor.degree != 2)\n{
+loop (58 DAY)\n{
+loop (58 DAY)\n{
+wait until (TV.volume > 18)\n{
+wait until (TV.channel < 18 and greenledlight.brightness < 31)\n{
+wait until (whiteledlight.brightness == 18 or TV.volume != 42)\n{
+if (redledlight.brightness != 18)\n{
+if (greenledlight.brightness <= 18 or time.hour > 94)\n{
+if (blueledlight.brightness >= 18 and powermeter.watt <= 5)\n{
+loop (59 HOUR)\n{
+loop (59 HOUR)\n{
+wait until (TV.channel < 19)\n{
+wait until (whiteledlight.brightness == 19 and TV.volume < 5)\n{
+wait until (redledlight.brightness != 19 or scale.weight > 64)\n{
+if (greenledlight.brightness <= 19)\n{
+if (blueledlight.brightness >= 19 or whiteledlight.brightness < 26)\n{
+if (powermeter.watt > 19 and greenledlight.brightness == 68)\n{
+loop (60 HOUR)\n{
+loop (60 HOUR)\n{
+wait until (whiteledlight.brightness == 20)\n{
+wait until (redledlight.brightness != 20 and time.minute < 7)\n{
+wait until (greenledlight.brightness <= 20 or time.hour == 32)\n{
+if (blueledlight.brightness >= 20)\n{
+if (powermeter.watt > 20 or time.minute == 0)\n{
+if (scale.weight < 20 and temperaturesensor.degree != 49)\n{
+loop (1 DAY)\n{
+loop (1 DAY)\n{
+wait until (redledlight.brightness != 21)\n{
+wait until (greenledlight.brightness <= 21 and whiteledlight.brightness >= 16)\n{
+wait until (blueledlight.brightness >= 21 or blueledlight.brightness <= 14)\n{
+if (powermeter.watt > 21)\n{
+if (scale.weight < 21 or TV.channel != 19)\n{
+if (lightsensor.brightness == 21 and temperaturesensor.degree > 57)\n{
+loop (2 MIN)\n{
+loop (2 MIN)\n{
+wait until (greenledlight.brightness <= 22)\n{
+wait until (blueledlight.brightness >= 22 and lightsensor.brightness <= 56)\n{
+wait until (powermeter.watt > 22 or whiteledlight.brightness > 8)\n{
+if (scale.weight < 22)\n{
+if (lightsensor.brightness == 22 or greenledlight.brightness >= 10)\n{
+if (humidsensor.humidity != 22 and whiteledlight.brightness < 55)\n{
+loop (3 DAY)\n{
+loop (3 DAY)\n{
+wait until (blueledlight.brightness >= 23)\n{
+wait until (powermeter.watt > 23 and supersonicsensor.distance != 33)\n{
+wait until (scale.weight < 23 or time.minute >= 7)\n{
+if (lightsensor.brightness == 23)\n{
+if (humidsensor.humidity != 23 or blueledlight.brightness <= 11)\n{
+if (temperaturesensor.degree <= 23 and time.minute < 69)\n{
+loop (4 DAY)\n{
+loop (4 DAY)\n{
+wait until (powermeter.watt > 24)\n{
+wait until (scale.weight < 24 and speaker.volume != 80)\n{
+wait until (lightsensor.brightness == 24 or supersonicsensor.distance >= 0)\n{
+if (humidsensor.humidity != 24)\n{
+if (temperaturesensor.degree <= 24 or redledlight.brightness <= 89)\n{
+if (supersonicsensor.distance >= 24 and TV.volume < 47)\n{
+loop (5 HOUR)\n{
+loop (5 HOUR)\n{
+wait until (scale.weight < 25)\n{
+wait until (lightsensor.brightness == 25 and whiteledlight.brightness < 56)\n{
+wait until (humidsensor.humidity != 25 or time.hour >= 80)\n{
+if (temperaturesensor.degree <= 25)\n{
+if (supersonicsensor.distance >= 25 or lightsensor.brightness > 84)\n{
+if (time.hour > 25 and humidsensor.humidity > 97)\n{
+loop (6 DAY)\n{
+loop (6 DAY)\n{
+wait until (lightsensor.brightness == 26)\n{
+wait until (humidsensor.humidity != 26 and humidsensor.humidity >= 49)\n{
+wait until (temperaturesensor.degree <= 26 or blueledlight.brightness <= 63)\n{
+if (supersonicsensor.distance >= 26)\n{
+if (time.hour > 26 or time.hour != 2)\n{
+if (time.minute < 26 and greenledlight.brightness == 15)\n{
+loop (7 DAY)\n{
+loop (7 DAY)\n{
+wait until (humidsensor.humidity != 27)\n{
+wait until (temperaturesensor.degree <= 27 and TV.volume >= 53)\n{
+wait until (supersonicsensor.distance >= 27 or greenledlight.brightness >= 31)\n{
+if (time.hour > 27)\n{
+if (time.minute < 27 or time.minute >= 94)\n{
+if (speaker.volume == 27 and blueledlight.brightness <= 95)\n{
+loop (8 SEC)\n{
+loop (8 SEC)\n{
+wait until (temperaturesensor.degree <= 28)\n{
+wait until (supersonicsensor.distance >= 28 and redledlight.brightness <= 69)\n{
+wait until (time.hour > 28 or TV.volume > 38)\n{
+if (time.minute < 28)\n{
+if (speaker.volume == 28 or speaker.volume <= 66)\n{
+if (TV.volume != 28 and supersonicsensor.distance <= 18)\n{
+loop (9 MIN)\n{
+loop (9 MIN)\n{
+wait until (supersonicsensor.distance >= 29)\n{
+wait until (time.hour > 29 and scale.weight > 31)\n{
+wait until (time.minute < 29 or supersonicsensor.distance == 26)\n{
+if (speaker.volume == 29)\n{
+if (TV.volume != 29 or speaker.volume > 19)\n{
+if (TV.channel <= 29 and redledlight.brightness <= 41)\n{
+loop (10 MIN)\n{
+loop (10 MIN)\n{
+wait until (time.hour > 30)\n{
+wait until (time.minute < 30 and time.hour != 12)\n{
+wait until (speaker.volume == 30 or lightsensor.brightness > 37)\n{
+if (TV.volume != 30)\n{
+if (TV.channel <= 30 or greenledlight.brightness >= 97)\n{
+if (whiteledlight.brightness >= 30 and redledlight.brightness <= 44)\n{
+loop (11 MIN)\n{
+loop (11 MIN)\n{
+wait until (time.minute < 31)\n{
+wait until (speaker.volume == 31 and greenledlight.brightness < 76)\n{
+wait until (TV.volume != 31 or redledlight.brightness < 75)\n{
+if (TV.channel <= 31)\n{
+if (whiteledlight.brightness >= 31 or TV.volume <= 91)\n{
+if (redledlight.brightness > 31 and whiteledlight.brightness != 89)\n{
+loop (12 SEC)\n{
+loop (12 SEC)\n{
+wait until (speaker.volume == 32)\n{
+wait until (TV.volume != 32 and redledlight.brightness >= 63)\n{
+wait until (TV.channel <= 32 or time.minute < 13)\n{
+if (whiteledlight.brightness >= 32)\n{
+if (redledlight.brightness > 32 or greenledlight.brightness <= 90)\n{
+if (greenledlight.brightness < 32 and time.minute >= 98)\n{
+loop (13 DAY)\n{
+loop (13 DAY)\n{
+wait until (TV.volume != 33)\n{
+wait until (TV.channel <= 33 and whiteledlight.brightness <= 6)\n{
+wait until (whiteledlight.brightness >= 33 or blueledlight.brightness <= 45)\n{
+if (redledlight.brightness > 33)\n{
+if (greenledlight.brightness < 33 or TV.channel < 48)\n{
+if (blueledlight.brightness == 33 and time.hour == 39)\n{
+loop (14 HOUR)\n{
+loop (14 HOUR)\n{
+wait until (TV.channel <= 34)\n{
+wait until (whiteledlight.brightness >= 34 and humidsensor.humidity == 60)\n{
+wait until (redledlight.brightness > 34 or supersonicsensor.distance == 33)\n{
+if (greenledlight.brightness < 34)\n{
+if (blueledlight.brightness == 34 or time.hour >= 37)\n{
+if (powermeter.watt != 34 and greenledlight.brightness != 74)\n{
+loop (15 SEC)\n{
+loop (15 SEC)\n{
+wait until (whiteledlight.brightness >= 35)\n{
+wait until (redledlight.brightness > 35 and TV.volume < 66)\n{
+wait until (greenledlight.brightness < 35 or supersonicsensor.distance < 98)\n{
+if (blueledlight.brightness == 35)\n{
+if (powermeter.watt != 35 or whiteledlight.brightness == 89)\n{
+if (scale.weight <= 35 and redledlight.brightness != 34)\n{
+loop (16 DAY)\n{
+loop (16 DAY)\n{
+wait until (redledlight.brightness > 36)\n{

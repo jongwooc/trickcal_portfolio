@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maptool", "Maptool\Maptool.vcxproj", "{0DC201DF-4638-43C0-91DD-D5704F12879E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Tools", "01.Tools", "{33314A02-41C8-4F18-B66B-4483D1BFAB6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.MainHeaders", "99.MainHeaders", "{5563ACB7-6806-405F-A10C-001902F65980}"
+	ProjectSection(SolutionItems) = preProject
+		MainHeaders\Constant.h = MainHeaders\Constant.h
+		MainHeaders\Defines.h = MainHeaders\Defines.h
+		MainHeaders\Function.h = MainHeaders\Function.h
+		MainHeaders\Include.h = MainHeaders\Include.h
+		MainHeaders\Macro.h = MainHeaders\Macro.h
+		MainHeaders\Struct.h = MainHeaders\Struct.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Client", "00.Client", "{0DAC1B8B-4A60-4C16-9329-5B8CAAFB0B85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{F10279D7-6B43-4A2F-9204-24A596465B8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC201DF-4638-43C0-91DD-D5704F12879E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DC201DF-4638-43C0-91DD-D5704F12879E}.Debug|Win32.Build.0 = Debug|Win32
+		{0DC201DF-4638-43C0-91DD-D5704F12879E}.Release|Win32.ActiveCfg = Release|Win32
+		{0DC201DF-4638-43C0-91DD-D5704F12879E}.Release|Win32.Build.0 = Release|Win32
+		{F10279D7-6B43-4A2F-9204-24A596465B8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F10279D7-6B43-4A2F-9204-24A596465B8F}.Debug|Win32.Build.0 = Debug|Win32
+		{F10279D7-6B43-4A2F-9204-24A596465B8F}.Release|Win32.ActiveCfg = Release|Win32
+		{F10279D7-6B43-4A2F-9204-24A596465B8F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DC201DF-4638-43C0-91DD-D5704F12879E} = {33314A02-41C8-4F18-B66B-4483D1BFAB6E}
+		{F10279D7-6B43-4A2F-9204-24A596465B8F} = {0DAC1B8B-4A60-4C16-9329-5B8CAAFB0B85}
+	EndGlobalSection
+EndGlobal

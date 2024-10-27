@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.MainGame">
+      <UniqueIdentifier>{0991fe5b-4351-4ff0-b058-82250b21d4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.DesignPattern">
+      <UniqueIdentifier>{cd3748a6-8ea8-4944-adfb-766afc8462b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.DesignPattern\ProtoType">
+      <UniqueIdentifier>{ba924e72-3448-4674-9d61-9b5bf4866568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.DesignPattern\ProtoType\Object">
+      <UniqueIdentifier>{abf4573a-5fc5-43ad-a8a0-ecdff40d0205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.DesignPattern\ProtoType\Object\Logo">
+      <UniqueIdentifier>{47a5513c-5012-41ec-959f-eabfea39c898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.DesignPattern\ProtoType\Object\Stage">
+      <UniqueIdentifier>{15f30111-7e24-4119-ac64-5c295093195a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{4d2e9f72-2b53-4547-b493-90276e7d52c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager">
+      <UniqueIdentifier>{c4a46d49-caba-4fd6-904d-2ee9c42a9836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\DeviceMgr">
+      <UniqueIdentifier>{70f3e840-46ab-4749-8c82-72b70e132048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ObjMgr">
+      <UniqueIdentifier>{72b65c0d-77be-475e-80ad-591b81dc6b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\SceneMgr">
+      <UniqueIdentifier>{2f29bf83-4a95-4b88-baa9-abeb334c5791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object">
+      <UniqueIdentifier>{72dcd8d8-2a09-4f92-8908-59f443d19efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Logo">
+      <UniqueIdentifier>{f429f2c9-e819-4b78-8442-1a69142819c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Logo\dynamic">
+      <UniqueIdentifier>{c4dc9765-8b88-4a7e-b8c6-f847f1011ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Logo\static">
+      <UniqueIdentifier>{b72bcf38-3bb6-444f-82f0-040275be904b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Logo\static\BackGround">
+      <UniqueIdentifier>{31b40d14-77bf-45f9-8d12-d1d4d89fd28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Logo\dynamic\Ball">
+      <UniqueIdentifier>{1cce336a-276a-4fbe-b50b-e137dce4fc7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Stage">
+      <UniqueIdentifier>{92d3badf-f2f5-4b21-8c54-2439272bfd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{25b10453-611c-4537-9977-a8e3609b7d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Logo">
+      <UniqueIdentifier>{814cfb0c-b41e-4824-b1fe-1b972fb9cd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Stage">
+      <UniqueIdentifier>{b9f933ca-8cbc-4caf-86fb-190a8fe79876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TextureMgr">
+      <UniqueIdentifier>{457859d0-09e5-4eef-b809-214ba6f87af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TextureMgr\Texture">
+      <UniqueIdentifier>{616fc4e1-c05b-4424-a51f-7af40bd3229b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TextureMgr\Texture\Multi">
+      <UniqueIdentifier>{9dd27d79-4602-46a3-b85b-22dbe383e6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TextureMgr\Texture\Single">
+      <UniqueIdentifier>{8a5f7ada-debb-43ae-8f74-68f59fc91dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TimeMgr">
+      <UniqueIdentifier>{72a9ec0e-4641-4b46-a50f-2bf37f8c92d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\SortMgr">
+      <UniqueIdentifier>{17a6b48f-66ba-430c-b4ff-d81e98e8bc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Stage\Dynamic">
+      <UniqueIdentifier>{c9e739a9-3358-416f-8906-3662b605de12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Stage\Static">
+      <UniqueIdentifier>{fc6c25f4-349b-4d95-9a87-373d5f90dab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Stage\Static\BackGround">
+      <UniqueIdentifier>{5e4ded70-772a-4b9d-981e-1cd9e0408a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Stage\Dynamic\Player">
+      <UniqueIdentifier>{858c948d-a546-4b03-a5bc-f8e9ad99a448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ColMgr">
+      <UniqueIdentifier>{f81c9ce8-51a9-4010-b74b-0632124d0c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ColMgr\Circle">
+      <UniqueIdentifier>{779ff2eb-35d6-46e9-875c-0e11abd4b97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ColMgr\Line">
+      <UniqueIdentifier>{da6cf5b3-fe98-4dc6-9d2d-35fc2b974773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ColMgr\Rect">
+      <UniqueIdentifier>{726b04d2-09f1-4af7-ae21-c9918d33eb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ColMgr\Tile">
+      <UniqueIdentifier>{90abe784-2856-493b-a0de-c8d511cff236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101.AI">
+      <UniqueIdentifier>{19642245-3ae0-4461-aaf8-7824dbd0a5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TileMgr">
+      <UniqueIdentifier>{3dadab74-bae9-445e-8dce-3a243e7b15fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TextMgr">
+      <UniqueIdentifier>{d82a8573-a2d7-42dc-94e9-fd03391e8846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\DataMgr">
+      <UniqueIdentifier>{39161328-cf9a-4f80-bae6-6dc0559384fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\MasterInput">
+      <UniqueIdentifier>{35c5b360-2cef-4e05-9ac4-cbd1a3380afd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>99.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>03.Manager\DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>97.DesignPattern\ProtoType</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjProto.h">
+      <Filter>97.DesignPattern\ProtoType\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoObjProto.h">
+      <Filter>97.DesignPattern\ProtoType\Object\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoDynamic.h">
+      <Filter>02.Object\Logo\dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoStatic.h">
+      <Filter>02.Object\Logo\static</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>02.Object\Logo\dynamic\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoBack.h">
+      <Filter>02.Object\Logo\static\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObj.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>01.Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>01.Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03.Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03.Manager\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>03.Manager\TextureMgr\Texture\Multi</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>03.Manager\TextureMgr\Texture\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>03.Manager\TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>03.Manager\TextureMgr\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>03.Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SortMgr.h">
+      <Filter>03.Manager\SortMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="StageStatic.h">
+      <Filter>02.Object\Stage\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="StageDynamic.h">
+      <Filter>02.Object\Stage\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>02.Object\Stage\Static\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObjProto.h">
+      <Filter>97.DesignPattern\ProtoType\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02.Object\Stage\Dynamic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCol.h">
+      <Filter>03.Manager\ColMgr\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCol.h">
+      <Filter>03.Manager\ColMgr\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCol.h">
+      <Filter>03.Manager\ColMgr\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="TileCol.h">
+      <Filter>03.Manager\ColMgr\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadSearch.h">
+      <Filter>101.AI</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>03.Manager\TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMgr.h">
+      <Filter>03.Manager\TextMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMgr.h">
+      <Filter>03.Manager\DataMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterInput.h">
+      <Filter>03.Manager\MasterInput</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>99.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>03.Manager\DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>97.DesignPattern\ProtoType</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjProto.cpp">
+      <Filter>97.DesignPattern\ProtoType\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoObjProto.cpp">
+      <Filter>97.DesignPattern\ProtoType\Object\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>02.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoDynamic.cpp">
+      <Filter>02.Object\Logo\dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoStatic.cpp">
+      <Filter>02.Object\Logo\static</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoBack.cpp">
+      <Filter>02.Object\Logo\static\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>02.Object\Logo\dynamic\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObj.cpp">
+      <Filter>01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>01.Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>01.Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03.Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03.Manager\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>03.Manager\TextureMgr\Texture\Multi</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>03.Manager\TextureMgr\Texture\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>03.Manager\TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>03.Manager\TextureMgr\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>03.Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SortMgr.cpp">
+      <Filter>03.Manager\SortMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="StageStatic.cpp">
+      <Filter>02.Object\Stage\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="StageDynamic.cpp">
+      <Filter>02.Object\Stage\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>02.Object\Stage\Static\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObjProto.cpp">
+      <Filter>97.DesignPattern\ProtoType\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02.Object\Stage\Dynamic\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCol.cpp">
+      <Filter>03.Manager\ColMgr\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCol.cpp">
+      <Filter>03.Manager\ColMgr\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCol.cpp">
+      <Filter>03.Manager\ColMgr\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="TileCol.cpp">
+      <Filter>03.Manager\ColMgr\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadSearch.cpp">
+      <Filter>101.AI</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>03.Manager\TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMgr.cpp">
+      <Filter>03.Manager\TextMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMgr.cpp">
+      <Filter>03.Manager\DataMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterInput.cpp">
+      <Filter>03.Manager\MasterInput</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

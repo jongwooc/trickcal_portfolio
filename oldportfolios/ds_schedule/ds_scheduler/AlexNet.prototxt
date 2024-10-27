@@ -1,0 +1,134 @@
+name: "AlexNet"
+
+layer {
+name: "data"
+cpu: 2000
+gpu: 99999999999
+time_unit: "usec"
+}
+layer {
+  name: "conv1"
+  cpu: 2979
+  gpu: 3024
+  time_unit: "usec"
+}
+layer {
+  name: "relu1"
+  cpu: 68
+  gpu: 193
+  time_unit: "usec"
+}
+layer {
+  name: "norm1"
+  cpu: 517
+  gpu: 340
+  time_unit: "usec"
+}
+layer {
+  name: "pool1"
+  cpu: 199
+  gpu: 228
+  time_unit: "usec"
+}
+layer {
+  name: "conv2"
+  cpu: 4155
+  gpu: 5996
+  time_unit: "usec"
+}
+layer {
+  name: "relu2"
+  cpu: 57
+  gpu: 168
+  time_unit: "usec"
+}
+layer {
+  name: "norm2"
+  cpu: 406
+  gpu: 323
+  time_unit: "usec"
+}
+layer {
+  name: "pool2"
+  cpu: 126
+  gpu: 226
+  time_unit: "usec"
+}
+layer {
+  name: "conv3"
+  cpu: 6817
+  gpu: 4035
+  time_unit: "usec"
+}
+layer {
+  name: "relu3"
+  cpu: 22
+  gpu: 141
+  time_unit: "usec"
+}
+layer {
+  name: "conv4"
+  cpu: 4881
+  gpu: 3576
+  time_unit: "usec"
+}
+layer {
+  name: "relu4"
+  cpu: 26
+  gpu: 142
+  time_unit: "usec"
+}
+layer {
+  name: "conv5"
+  cpu: 2816
+  gpu: 2484
+  time_unit: "usec"
+}
+layer {
+  name: "relu5"
+  cpu: 22
+  gpu: 144
+  time_unit: "usec"
+}
+layer {
+  name: "pool5"
+  cpu: 32
+  gpu: 173
+  time_unit: "usec"
+}
+layer {
+  name: "fc6"
+  cpu: 23002
+  gpu: 7465
+  time_unit: "usec"
+}
+layer {
+  name: "relu6"
+  cpu: 1
+  gpu: 132
+  time_unit: "usec"
+}
+layer {
+  name: "fc7"
+  cpu: 10154
+  gpu: 3302
+  time_unit: "usec"
+}
+layer {
+  name: "relu7"
+  cpu: 1
+  gpu: 131
+  time_unit: "usec"
+}
+layer {
+  name: "fc8"
+  cpu: 1316
+  gpu: 913
+  time_unit: "usec"
+}
+layer {
+  name: "loss"
+  cpu: 3
+  gpu: 67
+  time_unit: "usec"
+}

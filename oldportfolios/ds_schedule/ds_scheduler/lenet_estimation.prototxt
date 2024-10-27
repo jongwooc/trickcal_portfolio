@@ -1,0 +1,55 @@
+name: "LeNet"
+layer {
+  name: "data"
+  cpu: 20
+  gpu: 15
+  time_unit: "msec"
+}
+layer {
+  name: "conv1"
+  cpu: 100 
+  gpu: 70
+  time_unit: "msec"
+}
+layer {
+  name: "pool1"
+  cpu: 30 
+  gpu: 40
+  time_unit: "msec"
+}
+layer {
+  name: "conv2"
+  cpu: 50
+  gpu: 40 
+  time_unit: "msec"
+}
+layer {
+  name: "pool2"
+  cpu: 30
+  gpu: 10 
+  time_unit: "msec"
+}
+layer {
+  name: "ip1"
+  cpu: 40
+  gpu: 80 
+  time_unit: "msec"
+}
+layer {
+  name: "relu1"
+  cpu: 5
+  gpu: 10
+  time_unit: "msec"
+}
+layer {
+  name: "ip2"
+  cpu: 20
+  gpu: 20 
+  time_unit: "msec"
+}
+layer {
+  name: "prob"
+  cpu: 30
+  gpu: 5 
+  time_unit: "msec"
+}

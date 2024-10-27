@@ -1,0 +1,54 @@
+name: "TestNet"
+layer {
+  name: "data"
+  cpu: 1113
+  gpu: 9999999
+  time_unit: "usec"
+}
+layer {
+  name: "conv1"
+  cpu: 606
+  gpu: 3606
+  time_unit: "usec"
+}
+layer {
+  name: "pool1"
+  cpu: 167
+  gpu: 1387
+  time_unit: "usec"
+}
+layer {
+  name: "conv2"
+  cpu: 225
+  gpu: 1549
+  time_unit: "usec"
+}
+layer {
+  name: "conv3"
+  cpu: 3602
+  gpu: 1879
+  time_unit: "usec"
+}
+layer {
+  name: "conv4"
+  cpu: 312
+  gpu: 1871
+  time_unit: "usec"
+}
+layer {
+    name: "concat1"
+    cpu: 0
+    gpu: 0
+    time_unit: "usec"
+}
+layer {
+  name: "conv5"
+  cpu: 1662
+  gpu: 704
+  time_unit: "usec"
+}
+layer {
+	name: "dummy"
+	cpu: 227	
+	gpu: 9999999
+}

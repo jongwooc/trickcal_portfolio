@@ -1,0 +1,114 @@
+#---------------------------------------------------------
+# 
+#  Project #4: Drawing grid lines in an image in Y86-64
+#
+#  May 15, 2018
+#
+#  Jin-Soo Kim (jinsoo.kim@snu.ac.kr)
+#  Systems Software & Architecture Laboratory
+#  Dept. of Computer Science and Engineering
+#  Seoul National University
+#
+#---------------------------------------------------------
+
+
+# bmp_grid() starts here
+	.pos	0x400
+	.align 8
+bmp_grid:
+	# imgptr is in %rdi
+	# width  is in %rsi
+	# height is in %rdx
+	# gap	 is in %rcx
+    #   usable %rax,%r8,%r9,%r10,%r11
+    # ----------------------------------------------------
+
+	# FILL HERE
+    irmovq  $3, %rax
+    mulq    %rax, %rsi
+    rrmovq  %rsi, %r8       #%r8 = width w/o padding
+    addq    %rax, %rsi
+    irmovq  $-4, %rax
+    andq    %rax, %rsi      #%rsi = padded width
+    mulq    %rsi, %rdx      #%rdx = padded width * height
+    xorq    %r10, %r10      #%r10 will be used for gap moving
+
+
+width_gap_init:
+    rrmovq  %rdi, %r9       #%r9 = starting point, rdi stays original location and r9 will be moved by alu opq
+    addq    %rdx, %r9
+    subq    %r10, %r9
+    subq    %rsi, %r9
+    xorq    %rax, %rax      #%rax is used for line loop
+
+width_line:
+    xorq    %r11, %r11      #%r11 will be used for coloring
+    rmmovb  %r11, 0(%r9)
+    rmmovb  %r11, 1(%r9)
+    irmovq  $255, %r11
+    rmmovb  %r11, 2(%r9)
+    iaddq   $3, %r9
+    iaddq   $3, %rax
+    pushq   %r8
+    subq    %rax, %r8       #cmpq %rax, %r8
+    popq    %r8
+
+    jg      width_line
+
+    rrmovq  %rcx, %r11      #%r11 = %rcx (=gap)
+    mulq    %rsi, %r11      #%r11 = %rcx (=gap) * %rsi (=padded width)
+    addq    %r11, %r10      #%r10 += r11
+    pushq   %rdx
+    subq    %r10, %rdx      #cmpq %r10, %rdx
+    popq    %rdx
+
+    jg      width_gap_init
+
+
+    xorq    %rax, %rax      #%rax is used for gap moving
+    xorq    %r10, %r10      #%r10 will be used for line loop
+    rrmovq  %rdi, %r9       #%r9 = starting point, rdi stays original location and r9 will be moved by alu opq
+
+height_line:
+
+    xorq    %r11, %r11      #%r11 will be used for coloring
+    rmmovb  %r11, (%r9)
+    rmmovb  %r11, 1(%r9)
+    irmovq  $255, %r11
+    rmmovb  %r11, 2(%r9)
+    addq    %rsi, %r9       #start point + padded width
+    addq    %rsi, %r10      #line check + padded width
+
+    pushq   %rdx
+    subq    %r10, %rdx      #cmpq %r10, %rdx
+    popq    %rdx
+
+    jg  height_line
+
+    irmovq  $3, %r11        #%r11 = 3
+    mulq    %rcx, %r11      #%r11 = %rcx (=gap) * 3
+    addq    %r11, %rax      #%rax(gap mover) += r11
+
+    rrmovq  %rax, %r10      #%r10 will be used for line loop
+    rrmovq  %rdi, %r9       #%r9 = starting point, rdi stays original location and r9 will be moved by alu opq
+    addq    %rax, %r9       #%r9 += rax (= 3 * gap * n)
+
+    pushq   %r8
+    subq    %rax, %r8      #cmpq %rax, %r8 (no padded width)
+    popq    %r8
+
+    jg      height_line
+    
+    
+    
+
+
+
+
+
+
+
+
+    # ----------------------------------------------------
+
+	ret

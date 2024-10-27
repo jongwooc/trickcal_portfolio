@@ -1,0 +1,309 @@
+{% extends 'demo/base.html' %}
+{% load static %}
+
+{% block header %}
+    <link rel="stylesheet" href="{% static 'css/album.css' %}">
+{% endblock %}
+
+{% block content %}
+    <script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>    
+
+    <div class="navbar navbar-inverse bg-inverse" style="background-color:#8ACBFF;">
+      <div class="container d-flex justify-content-between">
+          <a href="{% url 'home' %}" class="navbar-brand" style="color:white;text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="jumbotron-fluid text-center" style="background-color:#8ACBFF;">
+      <div class="container">
+        <h1 class="jumbotron-heading" style="color:#fff; font-weight:500;">Enrollment</h1>
+        <p class="lead jumbotron-heading" style="color:#fff">To enroll your voice to verify, you must enter your name and record short phrase.</p>
+<!--         <form action="{% url 'enrollment' %}" method="post">{% csrf_token %}
+            <div class="form-group row">
+                <label for="name" class="ml-5 col-sm-1 col-form-label">Name</label>
+                <div class="col-sm-4">
+                    {{form.name}}
+                </div>
+
+                <div class="col-sm-4">
+                    {{form.record}}
+                </div>
+                <button type="submit" class="btn btn-primary">Enroll</button>
+            </div>
+        </form> -->
+
+        <br>
+        <button class="btn" id="btn-start-recording">Start Recording</button>
+        <button class="btn" id="btn-stop-recording" disabled>Stop Recording</button>
+        <button class="btn" id="btn-release-microphone" disabled>Release Microphone</button>
+
+        <hr>
+        <div><audio controls autoplay></audio></div>
+        <hr>
+
+        <div>
+            <input type="text" id="name" placeholder="Name">
+            <button class="btn btn-primary" onclick="postData()" id='upload-btn'>Upload</button>
+        </div>
+        <!--progress id="progress" value="0"></progress-->
+        <span id="display"></span>
+        <br><br><br>
+        <pre id="log"></pre>
+      </div>
+    </div>
+
+    <div class="album text-muted">
+      <div class="container">
+
+        <div class="row">
+          {% for e in enrol_lst %}
+          <div class="card">
+            <p>Person {{ e }}</p>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+
+    <script>
+    function __log(e, data) {
+        log.innerHTML += "\n" + e + " " + (data || '');
+    }
+
+    var audio = document.querySelector('audio');
+
+    function captureMicrophone(callback) {
+        btnReleaseMicrophone.disabled = false;
+
+        if(microphone) {
+            callback(microphone);
+            return;
+        }
+
+        if(typeof navigator.mediaDevices === 'undefined' || !navigator.mediaDevices.getUserMedia) {
+            alert('This browser does not supports WebRTC getUserMedia API.');
+
+            if(!!navigator.getUserMedia) {
+                alert('This browser seems supporting deprecated getUserMedia API.');
+            }
+        }
+
+        navigator.mediaDevices.getUserMedia({
+            audio: isEdge ? true : {
+                echoCancellation: false
+            }
+        }).then(function(mic) {
+            callback(mic);
+        }).catch(function(error) {
+            alert('Unable to capture your microphone. Please check console logs.');
+            console.error(error);
+        });
+        __log('Media stream created.');
+    }
+
+    function replaceAudio(src) {
+        var newAudio = document.createElement('audio');
+        newAudio.controls = true;
+
+        if(src) {
+            newAudio.src = src;
+        }
+        
+        var parentNode = audio.parentNode;
+        parentNode.innerHTML = '';
+        parentNode.appendChild(newAudio);
+
+        audio = newAudio;
+    }
+
+    function stopRecordingCallback() {
+        __log('Stop Recording.');
+        replaceAudio(URL.createObjectURL(recorder.getBlob()));
+
+        btnStartRecording.disabled = false;
+
+        setTimeout(function() {
+            if(!audio.paused) return;
+
+            setTimeout(function() {
+                if(!audio.paused) return;
+                audio.play();
+            }, 1000);
+            
+            audio.play();
+        }, 300);
+
+        audio.play();
+
+        if(isSafari) {
+            click(btnReleaseMicrophone);
+        }
+    }
+
+    var isEdge = navigator.userAgent.indexOf('Edge') !== -1 && (!!navigator.msSaveOrOpenBlob || !!navigator.msSaveBlob);
+    var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+    var recorder; // globally accessible
+    var microphone;
+
+    var btnStartRecording = document.getElementById('btn-start-recording');
+    var btnStopRecording = document.getElementById('btn-stop-recording');
+    var btnReleaseMicrophone = document.querySelector('#btn-release-microphone');
+
+    btnStartRecording.onclick = function() {
+        this.disabled = true;
+        this.style.border = '';
+        this.style.fontSize = '';
+
+        if (!microphone) {
+            captureMicrophone(function(mic) {
+                microphone = mic;
+
+                if(isSafari) {
+                    replaceAudio();
+
+                    audio.muted = true;
+                    setSrcObject(microphone, audio);
+                    audio.play();
+
+                    btnStartRecording.disabled = false;
+                    btnStartRecording.style.border = '1px solid red';
+                    btnStartRecording.style.fontSize = '150%';
+
+                    alert('Please click startRecording button again. First time we tried to access your microphone. Now we will record it.');
+                    return;
+                }
+
+                click(btnStartRecording);
+            });
+            return;
+        }
+
+        replaceAudio();
+
+        audio.muted = true;
+        setSrcObject(microphone, audio);
+        audio.play();
+
+        var options = {
+            type: 'audio',
+            numberOfAudioChannels: isEdge ? 1 : 2,
+            checkForInactiveTracks: true,
+            bufferSize: 16384
+        };
+
+        if(navigator.platform && navigator.platform.toString().toLowerCase().indexOf('win') === -1) {
+            options.sampleRate = 48000; // or 44100 or remove this line for default
+        }
+
+        if(recorder) {
+            recorder.destroy();
+            recorder = null;
+        }
+
+        recorder = RecordRTC(microphone, {
+          recorderType: StereoAudioRecorder,
+          bitsPerSecond: 256000,
+          desiredSampRate: 16 * 1000,
+          numberOfAudioChannels: 1 // or leftChannel:true
+        });
+        recorder.startRecording();
+        
+        __log('Start Recording....');
+
+        btnStopRecording.disabled = false;
+    };
+
+    btnStopRecording.onclick = function() {
+        this.disabled = true;
+        recorder.stopRecording(stopRecordingCallback);
+    };
+    btnReleaseMicrophone.onclick = function() {
+        this.disabled = true;
+        btnStartRecording.disabled = false;
+
+        if(microphone) {
+            microphone.stop();
+            microphone = null;
+        }
+
+        if(recorder) {
+            // click(btnStopRecording);
+        }
+    };
+
+    function click(el) {
+        el.disabled = false; // make sure that element is not disabled
+        var evt = document.createEvent('Event');
+        evt.initEvent('click', true, true);
+        el.dispatchEvent(evt);
+    }
+
+    function postData(){
+          __log('Upload Recording.');
+          var input_id = document.getElementById("name");
+          var fd = new FormData();
+          fd.append('csrfmiddlewaretoken', "{{ csrf_token }}");
+          fd.append('data_blob', recorder.blob);
+          fd.append('name', input_id.value);
+
+          var progressBar = document.getElementById("progress"),
+            display = document.getElementById("display");
+
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', '{% url 'enrollment' %}', true);
+          //if (xhr.upload) {
+          //    xhr.upload.onprogress = function(e) {
+          //        if (e.lengthComputable) {
+          //            progressBar.max = e.total;
+          //            progressBar.value = e.loaded;
+          //            display.innerText = Math.floor((e.loaded / e.total) * 100) + '%';
+          //        }
+          //    }
+          //    xhr.upload.onloadstart = function(e) {
+          //        console.log("start");
+          //        $("#upload-btn").prop('disabled', true);
+          //        progressBar.value = 0;
+          //        display.innerText = '0%';
+          //    }
+          //    xhr.upload.onloadend = function(e) {
+          //        progressBar.value = e.loaded;
+          //        display.innerText = display.innerText + " Conclude";
+          //        $("#upload-btn").prop('disabled', false);
+          //        setTimeout(function() { location.reload(); }, 3000);
+          //        __log('Success.');
+          //    }
+          //}
+          xhr.onreadystatechange = function() {
+              if (xhr.readyState == 4) {
+                  location.reload();
+              }
+          }
+          xhr.send(fd);
+    }
+</script>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      $(function () {
+        Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+      });
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+{% endblock %}

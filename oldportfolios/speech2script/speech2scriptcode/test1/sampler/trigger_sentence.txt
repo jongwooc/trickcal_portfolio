@@ -1,0 +1,1128 @@
+stop until led lamp's brightness is no different from 0,
+hold until brightness of red led is different from 0 and minute is no more than 22,
+wait until brightness of green light is equal or smaller than 0 or speaker sound volume is no lower than 39,
+if blue lamp's brightness is no darker than 0,
+on condition that watt is greater than 0 or minute is over 20,
+if weight measured by scale is lower than 0 and humidity by humid sensor is smaller than 23,
+once in every second
+every second
+hold until red led's brightness is not equal with 1,
+stay until brightness of green lamp is equal or dimmer than 1 and ambient lightlight sensor measured brightness is no smaller than 54,
+hold until blue led's brightness is no less than 1 or humidity measured by humid sensor is greater than 71,
+if measured watt is greater than 1,
+on condition that weight is lighter than 1 or loudness of television is not same with 91,
+on condition that brightness by light sensor is equal with 1 and brightness of green lamp is no darker than 53,
+once in every 2 hours
+every 2 hours
+stop until green lamp's brightness is no greater than 2,
+stay until blue lamp's brightness is not smaller than 2 and scale measured weight is not same with 63,
+stay until measured watt is higher than 2 or minute is smaller than 17,
+if scale measured weight is lower than 2,
+if brightness by light sensor is exactly same with 2 or humidity by humid sensor is not drier than 67,
+on condition that humidity is different from 2 and humidity measured by humid sensor is equal or greater than 70,
+once in every 3 hours
+every 3 hours
+hold until brightness of blue light is not less than 3,
+stay until measured power is higher than 3 and green light's brightness is exactly same with 17,
+stay until weight measured by scale is lower than 3 or weight is different from 72,
+on condition that ambient lightlight sensor measured brightness is no different from 3,
+if humidity is different from 3 or clock hour is not same with 51,
+if celsius by temperature sensor is equal or smaller than 3 and celsius is not cooler than 98,
+once in every 4 minutes
+every 4 minutes
+wait until measured power is over 4,
+stay until weight measured by scale is less than 4 and scale measured weight is not equal with 49,
+wait until ambient lightlight sensor measured brightness is exactly same with 4 or measured watt is equal with 97,
+if humidity measured by humid sensor is not same with 4,
+if temperature is not greater than 4 or brightness of green light is not less than 35,
+on condition that distance is no closer than 4 and television loudness is equal or larger than 62,
+once in every 5 hours
+every 5 hours
+hold until scale measured weight is smaller than 5,
+stop until brightness by light sensor is no different from 5 and clock minute is greater than 40,
+stay until room humidity is not equal with 5 or weight is different from 15,
+on condition that celsius is no hotter than 5,
+on condition that distance is no less than 5 or alarm light's brightness is equal or dimmer than 77,
+if clock hour is over 5 and channel of TV is no lower than 81,
+once in every 6 minutes
+every 6 minutes
+wait until environmental light is same with 6,
+hold until room humidity is not equal with 6 and watt is not less than 0,
+stop until degree is equal or cooler than 6 or humidity measured by humid sensor is different from 24,
+on condition that distance measured by supersonic sensor is equal or greater than 6,
+if hour is over 6 or sound volume of TV is no lower than 7,
+if clock minute is faster than 6 and clock minute is greater than 25,
+once in every 7 days
+every 7 days
+stop until humidity measured by humid sensor is different from 7,
+wait until degree is no hotter than 7 and measured watt is same with 21,
+wait until distance measured by supersonic sensor is no smaller than 7 or channel of TV is equal or higher than 60,
+on condition that clock hour is over 7,
+on condition that minute is smaller than 7 or watt from power meter is no different from 71,
+on condition that speaker loudness is no different from 7 and speaker volume is not same with 31,
+once in every 8 days
+every 8 days
+stop until celsius measured by temperature sensor is not warmer than 8,
+wait until distance measured by supersonic sensor is not closer than 8 and brightness measured by light sensor is smaller than 8,
+wait until hour is more than 8 or celsius measured by temperature sensor is over 51,
+on condition that minute is earlier than 8,
+on condition that speaker loudness is equal with 8 or loudness of speaker is exactly same with 5,
+if TV loudness is different from 8 and sound volume of TV is smaller than 69,
+once in every 9 hours
+every 9 hours
+stay until distance to object is no smaller than 9,
+wait until hour is more than 9 and channel of TV is less than 95,
+stop until minute is under 9 or led lamp's brightness is not equal with 59,
+on condition that speaker loudness is equal with 9,
+if television loudness is not same with 9 or minute is exactly same with 19,
+on condition that channel of television is equal or under 9 and scale measured weight is not greater than 47,
+once in every 10 minutes
+every 10 minutes
+wait until clock hour is greater than 10,
+hold until minute is less than 10 and weight is no higher than 86,
+hold until volume of speaker is same with 10 or weight measured by scale is not lighter than 90,
+if television sound volume is not equal with 10,
+on condition that television channel is no higher than 10 or television channel is not equal with 83,
+if brightness of white light is no dimmer than 10 and blue led's brightness is not darker than 83,
+once in every 11 hours
+every 11 hours
+wait until minute is smaller than 11,
+stop until loudness of speaker is equal with 11 and sound volume of speaker is no greater than 18,
+hold until TV sound volume is not equal with 11 or brightness of red light is different from 83,
+on condition that channel of television is not more than 11,
+if brightness of led lamp is not dimmer than 11 or minute is faster than 21,
+on condition that red light's brightness is over 11 and blue led's brightness is brighter than 97,
+once in every 12 seconds
+every 12 seconds
+hold until volume of speaker is exactly same with 12,
+wait until television sound volume is different from 12 and white led's brightness is less than 40,
+stay until channel of television is equal or smaller than 12 or clock minute is no greater than 31,
+on condition that brightness of white led is no smaller than 12,
+if red led's brightness is more than 12 or watt is not smaller than 9,
+if green lamp's brightness is dimmer than 12 and red led's brightness is darker than 27,
+once in every 13 minutes
+every 13 minutes
+stop until television sound volume is not same with 13,
+stay until channel of television is not greater than 13 and distance to object is equal with 39,
+stop until led lamp's brightness is equal or more than 13 or room humidity is equal with 94,
+if brightness of red led is more than 13,
+if green light's brightness is smaller than 13 or ambient brightness is same with 42,
+if blue lamp's brightness is exactly same with 13 and minute is not greater than 18,
+once in every 14 days
+every 14 days
+stop until television channel is no higher than 14,
+wait until brightness of main light is equal or greater than 14 and brightness of green light is smaller than 6,
+stay until brightness of red lamp is brighter than 14 or degree is greater than 46,
+if green led's brightness is smaller than 14,
+on condition that blue lamp's brightness is no different from 14 or hour is same with 78,
+if watt from power meter is not same with 14 and blue led's brightness is different from 48,
+once in every 15 seconds
+every 15 seconds
+stop until white led's brightness is no less than 15,
+hold until red lamp's brightness is greater than 15 and brightness of green led is dimmer than 28,
+stop until green light's brightness is under 15 or watt is smaller than 35,
+if brightness of blue lamp is same with 15,
+on condition that measured power is not equal with 15 or TV channel is no less than 59,
+on condition that weight is not greater than 15 and speaker volume is not same with 3,
+once in every 16 seconds
+every 16 seconds
+stay until brightness of red led is brighter than 16,
+stop until green lamp's brightness is less than 16 and scale measured weight is heavier than 77,
+stop until brightness of blue led is exactly same with 16 or volume of television is smaller than 43,
+if measured power is not equal with 16,
+on condition that weight measured by scale is no higher than 16 or watt is greater than 67,
+on condition that environmental brightness is not dimmer than 16 and volume of TV is equal or greater than 35,
+once in every 17 seconds
+every 17 seconds
+stay until green light's brightness is under 17,
+stay until brightness of blue light is same with 17 and celsius measured by temperature sensor is equal or more than 6,
+wait until measured watt is not equal with 17 or hour is smaller than 30,
+on condition that scale measured weight is no higher than 17,
+on condition that brightness by light sensor is no dimmer than 17 or scale measured weight is lower than 24,
+on condition that humid sensor measured humidity is over 17 and brightness of green light is different from 9,
+once in every 18 hours
+every 18 hours
+wait until blue lamp's brightness is equal with 18,
+stop until watt is not same with 18 and weight measured by scale is less than 47,
+wait until weight measured by scale is equal or smaller than 18 or blue light's brightness is less than 6,
+if environmental brightness is not less than 18,
+on condition that humidity is over 18 or green lamp's brightness is not equal with 79,
+if temperature is less than 18 and brightness of alarm light is equal or more than 3,
+once in every 19 days
+every 19 days
+wait until measured power is not same with 19,
+hold until scale measured weight is not greater than 19 and distance measured by supersonic sensor is less than 95,
+wait until environmental light is not less than 19 or weight measured by scale is no greater than 6,
+on condition that room humidity is damper than 19,
+if celsius by temperature sensor is smaller than 19 or hour is exactly same with 33,
+on condition that distance measured by supersonic sensor is exactly same with 19 and celsius by temperature sensor is no colder than 98,
+once in every 20 minutes
+every 20 minutes
+stop until weight measured by scale is equal or smaller than 20,
+wait until surrounding light is equal or over 20 and channel of TV is greater than 59,
+hold until room humidity is greater than 20 or white light's brightness is no smaller than 87,
+on condition that celsius by temperature sensor is colder than 20,
+if distance measured by supersonic sensor is same with 20 or distance measured by supersonic sensor is no different from 47,
+on condition that clock hour is not equal with 20 and speaker loudness is no more than 55,
+once in every 21 seconds
+every 21 seconds
+hold until surrounding brightness is no less than 21,
+hold until room humidity is greater than 21 and hour is equal or greater than 14,
+hold until temperature is smaller than 21 or measured power is higher than 94,
+on condition that distance by supersonic sensor is same with 21,
+if hour is not equal with 21 or blue light's brightness is no different from 13,
+if minute is equal or faster than 21 and clock hour is same with 33,
+once in every 22 hours
+every 22 hours
+stay until room humidity is over 22,
+wait until celsius measured by temperature sensor is colder than 22 and speaker sound volume is same with 11,
+stay until distance to object is no different from 22 or measured power is exactly same with 49,
+if hour is not same with 22,
+on condition that minute is equal or under 22 or brightness of alarm light is not equal with 11,
+if sound volume of speaker is no smaller than 22 and degree measured by temperature sensor is not equal with 47,
+once in every 23 seconds
+every 23 seconds
+stay until celsius by temperature sensor is under 23,
+stay until distance by supersonic sensor is same with 23 and measured power is same with 32,
+hold until hour is not same with 23 or television volume is no smaller than 49,
+if clock minute is not more than 23,
+on condition that loudness of speaker is equal or more than 23 or brightness of green light is no brighter than 95,
+on condition that TV sound volume is louder than 23 and distance measured by supersonic sensor is no different from 71,
+once in every 24 days
+every 24 days
+hold until distance by supersonic sensor is no different from 24,
+hold until clock hour is not same with 24 and ambient brightness is not less than 13,
+stop until minute is not greater than 24 or weight measured by scale is greater than 28,
+on condition that speaker volume is equal or over 24,
+on condition that sound volume of TV is larger than 24 or loudness of speaker is not equal with 60,
+if TV channel is smaller than 24 and environmental brightness is equal or brighter than 66,
+once in every 25 seconds
+every 25 seconds
+hold until clock hour is not same with 25,
+wait until minute is equal or under 25 and measured watt is smaller than 70,
+wait until volume of speaker is no lower than 25 or loudness of TV is no louder than 62,
+on condition that sound volume of TV is larger than 25,
+if channel of TV is lower than 25 or distance to object is over 42,
+on condition that white led's brightness is equal with 25 and degree is not same with 16,
+once in every 26 hours
+every 26 hours
+stay until clock minute is equal or smaller than 26,
+hold until speaker loudness is not smaller than 26 and minute is greater than 32,
+stay until loudness of television is more than 26 or weight is equal or greater than 60,
+if channel of television is lower than 26,
+on condition that white led's brightness is exactly same with 26 or temperature is equal or less than 41,
+if red light's brightness is different from 26 and brightness of green light is greater than 22,
+once in every 27 hours
+every 27 hours
+hold until volume of speaker is no quieter than 27,
+stop until sound volume of TV is louder than 27 and blue led's brightness is no more than 59,
+stay until channel of television is smaller than 27 or main light's brightness is equal or more than 52,
+on condition that white led's brightness is same with 27,
+if brightness of red light is not same with 27 or humidity by humid sensor is equal or smaller than 73,
+if green light's brightness is not more than 27 and blue lamp's brightness is smaller than 92,
+once in every 28 hours
+every 28 hours
+wait until television loudness is over 28,
+stop until TV channel is under 28 and distance to object is closer than 63,
+wait until main light's brightness is no different from 28 or distance to object is under 94,
+on condition that brightness of red lamp is not same with 28,
+if green light's brightness is not greater than 28 or red light's brightness is no more than 29,
+if blue lamp's brightness is no dimmer than 28 and brightness of red led is not same with 29,
+once in every 29 hours
+every 29 hours
+hold until TV channel is less than 29,
+stop until brightness of white light is no different from 29 and sound volume of speaker is exactly same with 89,
+stay until red led's brightness is not same with 29 or led lamp's brightness is dimmer than 36,
+if brightness of green lamp is no greater than 29,
+on condition that blue lamp's brightness is equal or more than 29 or distance measured by supersonic sensor is not closer than 32,
+on condition that measured power is higher than 29 and led lamp's brightness is not dimmer than 93,
+once in every 30 seconds
+every 30 seconds
+hold until brightness of white light is equal with 30,
+stay until red lamp's brightness is different from 30 and channel of television is over 99,
+stop until green lamp's brightness is not greater than 30 or measured watt is equal with 14,
+on condition that brightness of blue lamp is equal or brighter than 30,
+if watt from power meter is over 30 or clock hour is different from 3,
+on condition that scale measured weight is smaller than 30 and environmental light is no different from 60,
+once in every 31 minutes
+every 31 minutes
+wait until alarm light's brightness is not equal with 31,
+stop until brightness of green led is no greater than 31 and TV sound volume is no different from 61,
+wait until brightness of blue light is no smaller than 31 or brightness of red light is not smaller than 44,
+if watt is over 31,
+on condition that scale measured weight is lower than 31 or distance to object is equal or closer than 48,
+if ambient brightness is equal with 31 and environmental brightness is equal or brighter than 72,
+once in every 32 hours
+every 32 hours
+wait until brightness of green lamp is not brighter than 32,
+hold until blue led's brightness is equal or brighter than 32 and loudness of television is same with 29,
+stop until measured power is higher than 32 or humidity by humid sensor is no different from 49,
+on condition that weight measured by scale is lower than 32,
+on condition that surrounding brightness is no different from 32 or humid sensor measured humidity is not greater than 30,
+on condition that room humidity is not equal with 32 and brightness of white led is same with 11,
+once in every 33 days
+every 33 days
+stay until brightness of blue light is equal or over 33,
+wait until watt from power meter is higher than 33 and clock minute is no different from 21,
+wait until scale measured weight is less than 33 or sound volume of TV is equal with 0,
+if ambient lightlight sensor measured brightness is exactly same with 33,
+if humidity is not equal with 33 or brightness of white led is not equal with 14,
+on condition that celsius is equal or cooler than 33 and brightness measured by light sensor is no smaller than 11,
+once in every 34 hours
+every 34 hours
+wait until measured watt is greater than 34,
+stay until weight is smaller than 34 and brightness of blue light is no smaller than 95,
+hold until environmental brightness is exactly same with 34 or TV sound volume is different from 43,
+on condition that humid sensor measured humidity is different from 34,
+on condition that celsius is equal or cooler than 34 or clock hour is earlier than 37,
+on condition that distance is no less than 34 and channel of television is higher than 42,
+once in every 35 hours
+every 35 hours
+wait until scale measured weight is smaller than 35,
+wait until ambient lightlight sensor measured brightness is no different from 35 and speaker loudness is more than 83,
+stay until humid sensor measured humidity is not equal with 35 or clock minute is equal or over 82,
+if celsius is equal or smaller than 35,
+if distance by supersonic sensor is equal or farther than 35 or measured watt is less than 43,
+if clock hour is more than 35 and distance measured by supersonic sensor is not same with 88,
+once in every 36 seconds
+every 36 seconds
+wait until brightness by light sensor is no different from 36,
+stop until humidity by humid sensor is not equal with 36 and weight measured by scale is equal or smaller than 11,
+stay until degree by temperature sensor is no warmer than 36 or green light's brightness is no different from 17,
+if distance by supersonic sensor is equal or more than 36,
+if hour is over 36 or humid sensor measured humidity is drier than 89,
+on condition that minute is faster than 36 and brightness of blue lamp is darker than 86,
+once in every 37 seconds
+every 37 seconds
+hold until humidity is not equal with 37,
+hold until celsius measured by temperature sensor is not greater than 37 and blue lamp's brightness is equal or brighter than 62,
+hold until distance is no less than 37 or speaker volume is not quieter than 98,
+on condition that clock hour is greater than 37,
+on condition that minute is faster than 37 or green led's brightness is darker than 51,
+on condition that speaker sound volume is exactly same with 37 and weight is not same with 65,
+once in every 38 seconds
+every 38 seconds
+stop until celsius by temperature sensor is not greater than 38,
+hold until distance is equal or over 38 and brightness of red led is equal or greater than 47,
+stay until clock hour is over 38 or brightness of blue light is no less than 78,
+if minute is smaller than 38,
+if speaker sound volume is exactly same with 38 or brightness measured by light sensor is no different from 49,
+on condition that volume of television is different from 38 and humidity is exactly same with 75,
+once in every 39 minutes
+every 39 minutes
+wait until distance by supersonic sensor is equal or more than 39,
+wait until clock hour is greater than 39 and red light's brightness is more than 65,
+stay until clock minute is faster than 39 or volume of television is exactly same with 43,
+if speaker volume is same with 39,
+on condition that TV sound volume is not same with 39 or brightness of green lamp is equal with 34,
+if channel of television is no more than 39 and brightness measured by light sensor is not equal with 5,
+once in every 40 seconds
+every 40 seconds
+stay until hour is over 40,
+wait until minute is less than 40 and brightness of white led is no smaller than 36,
+wait until sound volume of speaker is no different from 40 or sound volume of speaker is no different from 87,
+if volume of television is not equal with 40,
+if channel of TV is no more than 40 or brightness measured by light sensor is brighter than 21,
+on condition that brightness of white light is not smaller than 40 and degree by temperature sensor is cooler than 50,
+once in every 41 days
+every 41 days
+stay until minute is less than 41,
+stop until sound volume of speaker is exactly same with 41 and humidity measured by humid sensor is under 26,
+stay until volume of television is different from 41 or led lamp's brightness is different from 87,
+on condition that TV channel is equal or smaller than 41,
+if brightness of white led is no smaller than 41 or volume of speaker is not louder than 99,
+if brightness of red lamp is greater than 41 and environmental light is more than 53,
+once in every 42 seconds
+every 42 seconds
+stop until loudness of speaker is exactly same with 42,
+stop until television volume is not same with 42 and hour is less than 41,
+stop until channel of television is not greater than 42 or scale measured weight is different from 58,
+if main light's brightness is equal or brighter than 42,
+on condition that brightness of red led is greater than 42 or watt is smaller than 56,
+on condition that brightness of green led is under 42 and brightness of green lamp is no different from 23,
+once in every 43 days
+every 43 days
+stay until television volume is different from 43,
+wait until TV channel is not greater than 43 and brightness of main light is not more than 71,
+hold until led lamp's brightness is equal or more than 43 or distance to object is over 0,
+if brightness of red led is more than 43,
+on condition that brightness of green lamp is under 43 or channel of TV is not greater than 41,
+if brightness of blue light is same with 43 and sound volume of television is equal or smaller than 7,
+once in every 44 days
+every 44 days
+stop until television channel is no higher than 44,
+hold until brightness of main light is not smaller than 44 and speaker loudness is not lower than 87,
+stop until alarm light's brightness is over 44 or weight is exactly same with 45,
+on condition that brightness of green light is dimmer than 44,
+on condition that blue light's brightness is equal with 44 or sound volume of speaker is less than 89,
+on condition that measured power is different from 44 and loudness of TV is no smaller than 92,
+once in every 45 seconds
+every 45 seconds
+stop until white light's brightness is equal or over 45,
+stop until brightness of alarm light is greater than 45 and blue lamp's brightness is more than 86,
+stop until green light's brightness is dimmer than 45 or celsius by temperature sensor is over 20,
+on condition that brightness of blue light is exactly same with 45,
+on condition that measured power is not equal with 45 or green led's brightness is dimmer than 23,
+if scale measured weight is not heavier than 45 and brightness of white light is same with 42,
+once in every 46 minutes
+every 46 minutes
+wait until red led's brightness is greater than 46,
+wait until green light's brightness is under 46 and environmental brightness is dimmer than 17,
+hold until blue light's brightness is no different from 46 or clock minute is no different from 43,
+on condition that measured power is different from 46,
+on condition that weight measured by scale is no heavier than 46 or clock hour is not same with 13,
+on condition that ambient brightness is not smaller than 46 and degree is not same with 25,
+once in every 47 minutes
+every 47 minutes
+stay until brightness of green lamp is under 47,
+hold until brightness of blue light is no different from 47 and hour is less than 30,
+wait until watt is not equal with 47 or red led's brightness is not greater than 58,
+if weight measured by scale is not greater than 47,
+if brightness by light sensor is not less than 47 or hour is not greater than 23,
+on condition that humidity is greater than 47 and temperature is different from 67,
+once in every 48 seconds
+every 48 seconds
+wait until brightness of blue lamp is equal with 48,
+stop until measured power is not equal with 48 and red light's brightness is darker than 13,
+stay until weight is equal or lighter than 48 or distance to object is not less than 69,
+if ambient lightlight sensor measured brightness is equal or more than 48,
+if room humidity is greater than 48 or minute is not greater than 38,
+on condition that degree is colder than 48 and watt from power meter is more than 73,
+once in every 49 hours
+every 49 hours
+hold until watt is different from 49,
+hold until weight is equal or smaller than 49 and hour is equal with 77,
+hold until ambient lightlight sensor measured brightness is no smaller than 49 or brightness of blue light is not less than 19,
+if humidity by humid sensor is greater than 49,
+on condition that degree by temperature sensor is cooler than 49 or weight measured by scale is not same with 9,
+on condition that distance is equal with 49 and measured power is no different from 94,
+once in every 50 hours
+every 50 hours
+wait until weight is no heavier than 50,
+stay until surrounding brightness is equal or more than 50 and distance by supersonic sensor is different from 33,
+stop until humid sensor measured humidity is greater than 50 or minute is no smaller than 70,
+on condition that degree measured by temperature sensor is less than 50,
+if distance by supersonic sensor is no different from 50 or channel of television is greater than 2,
+on condition that hour is not same with 50 and weight is equal or more than 5,
+once in every 51 days
+every 51 days
+wait until ambient lightlight sensor measured brightness is no smaller than 51,
+stay until humidity by humid sensor is greater than 51 and weight is no lighter than 35,
+wait until temperature is under 51 or hour is equal or faster than 99,
+on condition that distance is no different from 51,
+on condition that clock hour is not equal with 51 or TV channel is smaller than 42,
+if clock minute is equal or faster than 51 and environmental brightness is different from 95,
+once in every 52 minutes
+every 52 minutes
+stay until humidity by humid sensor is over 52,
+stay until degree is cooler than 52 and environmental light is same with 95,
+wait until distance is no different from 52 or measured power is equal or greater than 94,
+if hour is different from 52,
+if clock minute is no greater than 52 or room humidity is smaller than 81,
+if speaker sound volume is equal or more than 52 and TV channel is equal or lower than 85,
+once in every 53 seconds
+every 53 seconds
+hold until temperature is smaller than 53,
+stop until distance by supersonic sensor is same with 53 and distance by supersonic sensor is closer than 22,
+stop until clock hour is different from 53 or minute is not equal with 92,
+on condition that minute is equal or faster than 53,
+if volume of speaker is equal or more than 53 or brightness of red led is equal with 79,
+if television volume is more than 53 and brightness of white light is greater than 28,
+once in every 54 seconds
+every 54 seconds
+stop until distance measured by supersonic sensor is equal with 54,
+stop until hour is different from 54 and ambient brightness is no different from 94,
+wait until clock minute is equal or faster than 54 or television channel is not greater than 90,
+on condition that volume of speaker is not smaller than 54,
+if television loudness is more than 54 or room humidity is equal with 75,
+if channel of television is lower than 54 and distance measured by supersonic sensor is closer than 80,
+once in every 55 days
+every 55 days
+stop until clock hour is not same with 55,
+stop until clock minute is equal or smaller than 55 and ambient lightlight sensor measured brightness is under 11,
+stay until speaker loudness is no less than 55 or brightness of white led is not darker than 47,
+if loudness of television is over 55,
+if channel of TV is less than 55 or speaker loudness is no different from 84,
+if white led's brightness is no different from 55 and blue light's brightness is dimmer than 76,
+once in every 56 hours
+every 56 hours
+wait until minute is not later than 56,
+stay until speaker sound volume is equal or louder than 56 and brightness of alarm light is no dimmer than 27,
+hold until television sound volume is greater than 56 or TV channel is not less than 92,
+if television channel is lower than 56,
+if white light's brightness is equal with 56 or weight measured by scale is exactly same with 61,
+on condition that brightness of red light is not same with 56 and speaker volume is different from 70,
+once in every 57 seconds
+every 57 seconds
+stop until speaker loudness is equal or higher than 57,
+stop until volume of television is higher than 57 and volume of speaker is no larger than 3,
+stop until TV channel is smaller than 57 or television channel is lower than 31,
+on condition that brightness of led lamp is no different from 57,
+if alarm light's brightness is different from 57 or clock minute is faster than 95,
+on condition that green lamp's brightness is no brighter than 57 and brightness of blue lamp is not smaller than 12,
+once in every 58 minutes
+every 58 minutes
+stop until TV volume is more than 58,
+wait until television channel is smaller than 58 and brightness of green light is over 43,
+wait until white led's brightness is equal with 58 or red lamp's brightness is not greater than 20,
+if red light's brightness is not equal with 58,
+on condition that green lamp's brightness is no greater than 58 or minute is not same with 17,
+if blue lamp's brightness is equal or brighter than 58 and distance measured by supersonic sensor is not equal with 70,
+once in every 59 seconds
+every 59 seconds
+wait until TV channel is smaller than 59,
+hold until main light's brightness is exactly same with 59 and degree measured by temperature sensor is greater than 31,
+stay until brightness of red led is not same with 59 or brightness by light sensor is equal or less than 26,
+on condition that green led's brightness is equal or darker than 59,
+on condition that blue led's brightness is equal or over 59 or brightness of green light is no brighter than 58,
+on condition that watt is more than 59 and brightness of green light is not equal with 32,
+once in every 60 hours
+every 60 hours
+stay until led lamp's brightness is same with 60,
+wait until brightness of red lamp is not equal with 60 and speaker sound volume is no smaller than 6,
+stop until brightness of green lamp is equal or under 60 or TV channel is equal or higher than 61,
+if brightness of blue lamp is equal or over 60,
+if measured watt is higher than 60 or degree measured by temperature sensor is equal with 15,
+if weight is lighter than 60 and channel of TV is not lower than 81,
+once in every second
+every second
+stay until alarm light's brightness is not equal with 61,
+stop until brightness of green light is equal or dimmer than 61 and weight measured by scale is equal or greater than 95,
+wait until blue light's brightness is no darker than 61 or ambient brightness is smaller than 10,
+on condition that measured power is higher than 61,
+on condition that weight measured by scale is smaller than 61 or weight is under 89,
+if ambient lightlight sensor measured brightness is equal with 61 and red led's brightness is equal with 74,
+once in every 2 days
+every 2 days
+stay until green lamp's brightness is not more than 62,
+stay until blue led's brightness is equal or greater than 62 and measured watt is lower than 94,
+stop until measured watt is over 62 or hour is not same with 90,
+if weight measured by scale is smaller than 62,
+if surrounding brightness is no different from 62 or green led's brightness is not same with 35,
+on condition that room humidity is different from 62 and brightness of blue light is no different from 60,
+once in every 3 minutes
+every 3 minutes
+stay until brightness of blue lamp is equal or more than 63,
+hold until measured power is greater than 63 and brightness by light sensor is darker than 78,
+stop until weight measured by scale is lower than 63 or scale measured weight is different from 47,
+on condition that surrounding brightness is no different from 63,
+on condition that humidity measured by humid sensor is not equal with 63 or brightness of led lamp is no different from 90,
+on condition that celsius measured by temperature sensor is equal or cooler than 63 and sound volume of TV is no greater than 45,
+once in every 4 seconds
+every 4 seconds
+hold until watt is over 64,
+wait until scale measured weight is lighter than 64 and watt from power meter is no different from 82,
+wait until surrounding brightness is no different from 64 or sound volume of speaker is equal or smaller than 9,
+on condition that room humidity is different from 64,
+if degree by temperature sensor is no hotter than 64 or surrounding light is not same with 91,
+on condition that distance measured by supersonic sensor is equal or greater than 64 and red lamp's brightness is no less than 18,
+once in every 5 days
+every 5 days
+wait until weight measured by scale is under 65,
+hold until ambient lightlight sensor measured brightness is equal with 65 and distance by supersonic sensor is equal with 79,
+stay until humid sensor measured humidity is not same with 65 or green led's brightness is over 92,
+on condition that celsius by temperature sensor is not greater than 65,
+on condition that distance by supersonic sensor is equal or greater than 65 or humidity measured by humid sensor is under 26,
+on condition that hour is greater than 65 and red led's brightness is brighter than 11,
+once in every 6 seconds
+every 6 seconds
+wait until surrounding light is same with 66,
+stay until humidity by humid sensor is not equal with 66 and blue light's brightness is equal with 15,
+wait until degree is equal or smaller than 66 or clock hour is not equal with 6,
+on condition that distance is equal or greater than 66,
+if clock hour is later than 66 or brightness of red led is no greater than 14,
+if minute is smaller than 66 and clock minute is equal or faster than 23,
+once in every 7 seconds
+every 7 seconds
+hold until room humidity is different from 67,
+stop until celsius is equal or less than 67 and weight measured by scale is not smaller than 1,
+stay until distance measured by supersonic sensor is no smaller than 67 or brightness of green light is smaller than 78,
+if hour is over 67,
+if clock minute is faster than 67 or channel of TV is no more than 66,
+if speaker sound volume is same with 67 and brightness of red lamp is not smaller than 37,
+once in every 8 minutes
+every 8 minutes
+stop until celsius by temperature sensor is equal or lower than 68,
+stop until distance is equal or greater than 68 and green led's brightness is different from 97,
+hold until clock hour is greater than 68 or minute is equal with 2,
+on condition that clock minute is smaller than 68,
+if speaker volume is equal with 68 or minute is no different from 65,
+on condition that TV sound volume is not same with 68 and measured watt is same with 73,
+once in every 9 seconds
+every 9 seconds
+stop until distance is no closer than 69,
+stay until hour is greater than 69 and brightness measured by light sensor is not greater than 21,
+stop until clock minute is less than 69 or weight measured by scale is equal or more than 82,
+on condition that speaker volume is exactly same with 69,
+if TV loudness is not equal with 69 or loudness of speaker is smaller than 84,
+if TV channel is not greater than 69 and watt from power meter is smaller than 11,
+once in every 10 minutes
+every 10 minutes
+stay until clock hour is over 70,
+stay until clock minute is under 70 and minute is later than 34,
+stay until speaker volume is exactly same with 70 or speaker loudness is not greater than 23,
+on condition that TV sound volume is not same with 70,
+on condition that channel of television is no greater than 70 or humidity by humid sensor is different from 85,
+on condition that white light's brightness is not darker than 70 and measured watt is higher than 52,
+once in every 11 days
+every 11 days
+stay until clock minute is smaller than 71,
+hold until loudness of speaker is same with 71 and ambient brightness is darker than 20,
+hold until TV loudness is not same with 71 or humid sensor measured humidity is equal or more than 85,
+if channel of TV is equal or less than 71,
+if led lamp's brightness is no darker than 71 or humidity measured by humid sensor is no damper than 38,
+if brightness of red lamp is more than 71 and weight is not more than 19,
+once in every 12 seconds
+every 12 seconds
+wait until loudness of speaker is same with 72,
+wait until television volume is different from 72 and humidity measured by humid sensor is smaller than 17,
+wait until television channel is no higher than 72 or weight measured by scale is same with 80,
+if led lamp's brightness is equal or brighter than 72,
+on condition that brightness of red led is greater than 72 or speaker sound volume is quieter than 92,
+if brightness of green lamp is under 72 and blue lamp's brightness is equal or less than 58,
+once in every 13 seconds
+every 13 seconds
+wait until TV sound volume is different from 73,
+stay until television channel is equal or smaller than 73 and led lamp's brightness is not greater than 87,
+stop until brightness of led lamp is no smaller than 73 or measured power is same with 74,
+if brightness of alarm light is brighter than 73,
+if green lamp's brightness is smaller than 73 or brightness of blue lamp is same with 6,
+on condition that blue lamp's brightness is same with 73 and environmental brightness is less than 66,
+once in every 14 seconds
+every 14 seconds
+stop until TV channel is equal or lower than 74,
+stop until white led's brightness is not darker than 74 and humidity is drier than 40,
+stay until brightness of alarm light is greater than 74 or clock minute is exactly same with 88,
+if brightness of green light is smaller than 74,
+if brightness of blue led is equal with 74 or celsius measured by temperature sensor is colder than 91,
+on condition that measured watt is different from 74 and minute is equal or greater than 52,
+once in every 15 minutes
+every 15 minutes
+hold until brightness of led lamp is not dimmer than 75,
+hold until red led's brightness is greater than 75 and clock minute is earlier than 61,
+stay until green lamp's brightness is smaller than 75 or channel of TV is different from 51,
+on condition that brightness of blue led is equal with 75,
+if measured power is not equal with 75 or humidity by humid sensor is same with 4,
+if scale measured weight is equal or lighter than 75 and main light's brightness is equal or under 87,
+once in every 16 hours
+every 16 hours
+stop until brightness of alarm light is over 76,
+hold until brightness of green light is darker than 76 and brightness of led lamp is under 19,
+wait until blue light's brightness is exactly same with 76 or loudness of TV is greater than 94,
+if watt from power meter is not equal with 76,
+if weight is not greater than 76 or humidity is equal or greater than 43,
+if surrounding brightness is equal or over 76 and clock minute is exactly same with 85,
+once in every 17 minutes
+every 17 minutes
+stop until green lamp's brightness is dimmer than 77,
+hold until brightness of blue lamp is equal with 77 and brightness of main light is not equal with 58,
+hold until watt is not equal with 77 or minute is greater than 9,
+if weight measured by scale is not heavier than 77,
+if ambient brightness is equal or more than 77 or loudness of speaker is different from 31,
+if humidity measured by humid sensor is over 77 and red lamp's brightness is not equal with 12,
+once in every 18 minutes
+every 18 minutes
+wait until blue light's brightness is no different from 78,
+stop until watt from power meter is not same with 78 and brightness of red led is under 4,
+hold until weight is no greater than 78 or loudness of speaker is equal or smaller than 22,
+on condition that surrounding light is not dimmer than 78,
+if humidity is over 78 or loudness of TV is equal or under 72,
+on condition that celsius by temperature sensor is smaller than 78 and weight measured by scale is same with 76,
+once in every 19 seconds
+every 19 seconds
+stay until measured watt is not same with 79,
+wait until weight measured by scale is no greater than 79 and green led's brightness is greater than 6,
+wait until environmental brightness is no smaller than 79 or watt is greater than 73,
+on condition that room humidity is over 79,
+on condition that degree is cooler than 79 or scale measured weight is equal or lighter than 50,
+on condition that distance by supersonic sensor is same with 79 and distance by supersonic sensor is less than 82,
+once in every 20 minutes
+every 20 minutes
+wait until scale measured weight is equal or lower than 80,
+wait until environmental brightness is not dimmer than 80 and speaker sound volume is same with 32,
+stay until humidity measured by humid sensor is over 80 or brightness of led lamp is equal with 51,
+on condition that celsius measured by temperature sensor is less than 80,
+if distance is exactly same with 80 or red lamp's brightness is not same with 63,
+if clock hour is different from 80 and brightness of green led is exactly same with 71,
+once in every 21 days
+every 21 days
+wait until ambient lightlight sensor measured brightness is not dimmer than 81,
+wait until humid sensor measured humidity is damper than 81 and hour is later than 59,
+hold until celsius is less than 81 or green lamp's brightness is smaller than 13,
+on condition that distance is exactly same with 81,
+on condition that hour is different from 81 or blue lamp's brightness is exactly same with 59,
+on condition that clock minute is no more than 81 and ambient brightness is different from 15,
+once in every 22 seconds
+every 22 seconds
+stop until humidity measured by humid sensor is more than 82,
+wait until degree by temperature sensor is cooler than 82 and scale measured weight is different from 22,
+hold until distance by supersonic sensor is exactly same with 82 or TV volume is under 93,
+on condition that clock hour is not equal with 82,
+if minute is not more than 82 or channel of TV is less than 28,
+on condition that loudness of speaker is not smaller than 82 and celsius by temperature sensor is cooler than 65,
+once in every 23 days
+every 23 days
+stop until degree measured by temperature sensor is less than 83,
+stop until distance by supersonic sensor is exactly same with 83 and surrounding light is not darker than 69,
+wait until hour is not equal with 83 or measured watt is equal or over 55,
+if clock minute is not greater than 83,
+on condition that volume of speaker is no smaller than 83 or measured watt is equal or more than 36,
+on condition that TV sound volume is higher than 83 and television sound volume is no different from 1,
+once in every 24 days
+every 24 days
+stay until distance by supersonic sensor is same with 84,
+stop until hour is not same with 84 and brightness of white led is not darker than 54,
+wait until clock minute is no greater than 84 or weight is no different from 28,
+if speaker sound volume is not less than 84,
+if TV volume is greater than 84 or measured power is no higher than 53,
+if channel of TV is less than 84 and brightness of led lamp is greater than 84,
+once in every 25 minutes
+every 25 minutes
+stay until clock hour is different from 85,
+stay until clock minute is equal or under 85 and clock hour is equal or under 21,
+wait until speaker loudness is not smaller than 85 or brightness of green lamp is not brighter than 10,
+if television volume is more than 85,
+on condition that television channel is less than 85 or distance is equal or more than 84,
+if white light's brightness is exactly same with 85 and clock hour is not more than 12,
+once in every 26 hours
+every 26 hours
+stop until clock minute is equal or under 86,
+wait until speaker sound volume is not smaller than 86 and watt from power meter is no higher than 12,
+hold until TV volume is louder than 86 or brightness of green light is more than 25,
+if TV channel is under 86,
+on condition that white led's brightness is no different from 86 or weight is equal or lower than 69,
+on condition that red lamp's brightness is not same with 86 and brightness of blue lamp is not less than 3,
+once in every 27 hours
+every 27 hours
+wait until volume of speaker is no quieter than 87,
+wait until TV sound volume is over 87 and celsius is no different from 14,
+wait until channel of TV is smaller than 87 or celsius by temperature sensor is colder than 68,
+if brightness of white led is exactly same with 87,
+on condition that red led's brightness is not equal with 87 or green led's brightness is dimmer than 13,
+if green lamp's brightness is equal or dimmer than 87 and brightness by light sensor is not equal with 54,
+once in every 28 days
+every 28 days
+wait until television sound volume is higher than 88,
+stay until TV channel is less than 88 and ambient lightlight sensor measured brightness is more than 23,
+wait until main light's brightness is same with 88 or green led's brightness is brighter than 41,
+if alarm light's brightness is different from 88,
+on condition that green light's brightness is not more than 88 or weight is over 34,
+on condition that blue light's brightness is no smaller than 88 and humidity is over 43,
+once in every 29 days
+every 29 days
+wait until channel of TV is smaller than 89,
+stop until brightness of white led is equal with 89 and volume of television is not higher than 6,
+wait until brightness of red led is different from 89 or degree measured by temperature sensor is exactly same with 67,
+on condition that green led's brightness is equal or under 89,
+if blue lamp's brightness is equal or greater than 89 or celsius measured by temperature sensor is not equal with 0,
+if measured watt is more than 89 and brightness of blue led is under 55,
+once in every 30 seconds
+every 30 seconds
+hold until white led's brightness is same with 90,
+stop until red led's brightness is different from 90 and volume of speaker is no more than 27,
+hold until green lamp's brightness is not brighter than 90 or degree by temperature sensor is exactly same with 0,
+if brightness of blue light is no dimmer than 90,
+if watt is greater than 90 or television volume is louder than 43,
+if weight is lower than 90 and brightness of green light is not brighter than 38,
+once in every 31 minutes
+every 31 minutes
+wait until red lamp's brightness is not equal with 91,
+stop until green led's brightness is equal or smaller than 91 and volume of speaker is exactly same with 95,
+hold until blue lamp's brightness is equal or greater than 91 or brightness of white led is equal or brighter than 41,
+if watt is greater than 91,
+if weight is under 91 or brightness of green lamp is no smaller than 37,
+on condition that brightness by light sensor is no different from 91 and distance measured by supersonic sensor is not farther than 9,
+once in every 32 seconds
+every 32 seconds
+wait until brightness of green lamp is equal or smaller than 92,
+stay until brightness of blue light is not dimmer than 92 and brightness of red light is not same with 2,
+stay until measured power is over 92 or brightness of green led is dimmer than 68,
+on condition that weight measured by scale is lighter than 92,
+on condition that brightness by light sensor is same with 92 or brightness of alarm light is no less than 40,
+on condition that humid sensor measured humidity is not same with 92 and green led's brightness is dimmer than 21,
+once in every 33 seconds
+every 33 seconds
+wait until blue lamp's brightness is equal or more than 93,
+stop until measured power is greater than 93 and blue lamp's brightness is brighter than 62,
+stay until weight measured by scale is smaller than 93 or green led's brightness is not dimmer than 32,
+on condition that brightness by light sensor is same with 93,
+on condition that humid sensor measured humidity is not equal with 93 or scale measured weight is same with 25,
+if celsius by temperature sensor is equal or under 93 and brightness of green light is equal with 6,
+once in every 34 seconds
+every 34 seconds
+hold until watt is higher than 94,
+hold until scale measured weight is under 94 and red light's brightness is less than 68,
+hold until ambient lightlight sensor measured brightness is equal with 94 or watt from power meter is less than 13,
+if humid sensor measured humidity is not equal with 94,
+on condition that degree by temperature sensor is no greater than 94 or brightness of blue light is not less than 81,
+if distance measured by supersonic sensor is equal or more than 94 and humid sensor measured humidity is less than 88,
+once in every 35 days
+every 35 days
+stop until weight is lighter than 95,
+stay until surrounding brightness is equal with 95 and hour is exactly same with 26,
+hold until humid sensor measured humidity is different from 95 or humidity is different from 38,
+on condition that celsius is no hotter than 95,
+on condition that distance measured by supersonic sensor is equal or farther than 95 or white light's brightness is no less than 58,
+on condition that hour is over 95 and clock minute is same with 61,
+once in every 36 days
+every 36 days
+wait until surrounding light is exactly same with 96,
+wait until humidity is not same with 96 and blue lamp's brightness is no less than 93,
+stop until celsius by temperature sensor is no more than 96 or watt is equal or over 92,
+on condition that distance is equal or farther than 96,
+on condition that hour is greater than 96 or weight measured by scale is not lighter than 68,
+if minute is faster than 96 and television loudness is more than 99,
+once in every 37 minutes
+every 37 minutes
+hold until humidity by humid sensor is different from 97,
+hold until degree measured by temperature sensor is not hotter than 97 and brightness of main light is darker than 84,
+stop until distance is not smaller than 97 or distance measured by supersonic sensor is different from 38,
+if hour is over 97,
+on condition that minute is earlier than 97 or blue lamp's brightness is no different from 89,
+on condition that volume of speaker is equal with 97 and brightness of blue lamp is no brighter than 78,
+once in every 38 hours
+every 38 hours
+hold until celsius measured by temperature sensor is no warmer than 98,
+stop until distance by supersonic sensor is not smaller than 98 and loudness of television is exactly same with 15,
+hold until clock hour is greater than 98 or led lamp's brightness is not equal with 1,
+on condition that minute is faster than 98,
+if volume of speaker is exactly same with 98 or loudness of TV is exactly same with 0,
+if TV sound volume is not equal with 98 and celsius is equal or over 17,
+once in every 39 hours
+every 39 hours
+stay until distance by supersonic sensor is equal or farther than 99,
+stop until hour is over 99 and environmental brightness is under 72,
+wait until minute is under 99 or loudness of TV is equal or over 5,
+if sound volume of speaker is no different from 99,
+on condition that volume of television is not equal with 99 or ambient brightness is not dimmer than 31,
+on condition that channel of television is not more than 99 and degree by temperature sensor is different from 38,
+once in every 40 seconds
+every 40 seconds
+stay until hour is later than 0,
+hold until minute is less than 0 and brightness of green lamp is not same with 22,
+hold until speaker volume is same with 0 or humid sensor measured humidity is over 25,
+on condition that TV sound volume is not equal with 0,
+on condition that channel of TV is not greater than 0 or channel of television is greater than 40,
+if brightness of white light is not dimmer than 0 and loudness of television is under 37,
+once in every 41 days
+every 41 days
+stay until minute is faster than 1,
+wait until speaker loudness is exactly same with 1 and clock hour is exactly same with 42,
+wait until TV sound volume is different from 1 or channel of television is not less than 59,
+on condition that television channel is not more than 1,
+if brightness of main light is not smaller than 1 or weight is exactly same with 28,
+if brightness of red lamp is greater than 1 and brightness of blue lamp is different from 75,
+once in every 42 seconds
+every 42 seconds
+hold until speaker volume is exactly same with 2,
+wait until volume of TV is not same with 2 and speaker sound volume is not smaller than 52,
+wait until channel of TV is equal or less than 2 or weight is no different from 46,
+on condition that brightness of white led is no smaller than 2,
+if brightness of red light is brighter than 2 or room humidity is no different from 87,
+if green light's brightness is under 2 and clock hour is exactly same with 99,
+once in every 43 seconds
+every 43 seconds
+wait until sound volume of TV is different from 3,
+stay until television channel is equal or smaller than 3 and brightness of main light is not brighter than 1,
+hold until main light's brightness is equal or greater than 3 or brightness of white led is not equal with 16,
+if red light's brightness is brighter than 3,
+if brightness of green led is smaller than 3 or speaker loudness is not higher than 54,
+on condition that brightness of blue light is exactly same with 3 and sound volume of speaker is less than 12,
+once in every 44 hours
+every 44 hours
+stay until TV channel is no higher than 4,
+stop until brightness of white led is no less than 4 and green lamp's brightness is greater than 46,
+stay until red led's brightness is greater than 4 or measured power is more than 96,
+if green light's brightness is under 4,
+if blue lamp's brightness is equal with 4 or TV volume is equal or quieter than 49,
+on condition that watt from power meter is different from 4 and speaker sound volume is smaller than 8,
+once in every 45 hours
+every 45 hours
+stay until led lamp's brightness is equal or more than 5,
+wait until red lamp's brightness is brighter than 5 and humidity by humid sensor is equal or over 48,
+wait until green light's brightness is under 5 or measured power is not more than 88,
+on condition that brightness of blue lamp is exactly same with 5,
+if measured watt is not same with 5 or TV volume is smaller than 84,
+on condition that weight is no greater than 5 and weight measured by scale is not lower than 1,
+once in every 46 days
+every 46 days
+stay until brightness of red light is greater than 6,
+hold until green lamp's brightness is less than 6 and loudness of speaker is under 1,
+stay until brightness of blue led is no different from 6 or green lamp's brightness is not equal with 47,
+if measured power is not same with 6,
+if weight measured by scale is not higher than 6 or degree is different from 69,
+on condition that ambient brightness is not dimmer than 6 and brightness of blue led is different from 62,
+once in every 47 minutes
+every 47 minutes
+stay until brightness of green light is under 7,
+wait until brightness of blue led is equal with 7 and room humidity is less than 91,
+stay until watt is not same with 7 or led lamp's brightness is not more than 49,
+on condition that weight is no heavier than 7,
+on condition that environmental brightness is not dimmer than 7 or weight measured by scale is not greater than 58,
+if room humidity is greater than 7 and humidity is equal with 65,
+once in every 48 days
+every 48 days
+hold until brightness of blue lamp is same with 8,
+hold until measured watt is not equal with 8 and brightness of main light is more than 89,
+hold until scale measured weight is not greater than 8 or television channel is equal or smaller than 56,
+on condition that surrounding light is no dimmer than 8,
+if humidity by humid sensor is damper than 8 or brightness of led lamp is equal with 79,
+on condition that degree measured by temperature sensor is colder than 8 and humidity measured by humid sensor is equal with 74,
+once in every 49 seconds
+every 49 seconds
+stay until measured watt is different from 9,
+stop until weight measured by scale is equal or smaller than 9 and distance by supersonic sensor is not closer than 81,
+stay until surrounding light is equal or over 9 or clock minute is not same with 70,
+if humid sensor measured humidity is greater than 9,
+if celsius measured by temperature sensor is smaller than 9 or humidity by humid sensor is not equal with 54,
+if distance by supersonic sensor is same with 9 and brightness of green light is under 24,
+once in every 50 hours
+every 50 hours
+stop until weight measured by scale is not more than 10,
+stop until environmental brightness is equal or brighter than 10 and green led's brightness is darker than 18,
+stay until humidity measured by humid sensor is over 10 or green light's brightness is equal or less than 67,
+if degree measured by temperature sensor is smaller than 10,
+on condition that distance to object is no different from 10 or distance by supersonic sensor is exactly same with 48,
+on condition that hour is not same with 10 and humidity by humid sensor is damper than 94,
+once in every 51 hours
+every 51 hours
+hold until environmental brightness is equal or brighter than 11,
+stay until humid sensor measured humidity is over 11 and brightness of red light is equal or dimmer than 18,
+stop until celsius measured by temperature sensor is smaller than 11 or measured power is no greater than 74,
+on condition that distance to object is equal with 11,
+on condition that clock hour is not equal with 11 or ambient lightlight sensor measured brightness is over 63,
+on condition that minute is no greater than 11 and weight measured by scale is lighter than 57,
+once in every 52 days
+every 52 days
+stay until humidity is greater than 12,
+stay until degree by temperature sensor is cooler than 12 and distance is no smaller than 44,
+wait until distance by supersonic sensor is equal with 12 or blue light's brightness is brighter than 14,
+if clock hour is not equal with 12,
+on condition that minute is equal or earlier than 12 or TV volume is not louder than 3,
+if speaker sound volume is equal or louder than 12 and humidity is not equal with 89,
+once in every 53 minutes
+every 53 minutes
+wait until celsius measured by temperature sensor is less than 13,
+wait until distance measured by supersonic sensor is no different from 13 and main light's brightness is equal or brighter than 36,
+wait until clock hour is different from 13 or brightness of red light is greater than 77,
+if clock minute is not later than 13,
+on condition that loudness of speaker is no quieter than 13 or humid sensor measured humidity is equal or under 54,
+if TV loudness is more than 13 and watt is not more than 97,
+once in every 54 minutes
+every 54 minutes
+stop until distance is no different from 14,
+wait until hour is not equal with 14 and loudness of TV is lower than 88,
+stop until clock minute is equal or earlier than 14 or clock minute is not later than 60,
+if sound volume of speaker is equal or louder than 14,
+on condition that loudness of TV is higher than 14 or scale measured weight is not equal with 92,
+if channel of TV is less than 14 and brightness of main light is not same with 42,
+once in every 55 hours
+every 55 hours
+stay until clock hour is not equal with 15,
+stop until minute is not later than 15 and measured power is same with 91,
+wait until volume of speaker is equal or greater than 15 or speaker loudness is not same with 97,
+on condition that volume of TV is louder than 15,
+if television channel is less than 15 or sound volume of speaker is smaller than 42,
+if white led's brightness is same with 15 and alarm light's brightness is not dimmer than 39,
+once in every 56 seconds
+every 56 seconds
+hold until minute is equal or less than 16,
+wait until volume of speaker is not quieter than 16 and television volume is no less than 63,
+stay until sound volume of TV is more than 16 or TV volume is equal with 8,
+if TV channel is smaller than 16,
+if brightness of white light is no different from 16 or surrounding light is not brighter than 20,
+if red lamp's brightness is different from 16 and loudness of TV is equal or quieter than 93,
+once in every 57 days
+every 57 days
+wait until volume of speaker is no less than 17,
+stop until loudness of TV is over 17 and green lamp's brightness is over 85,
+stay until channel of TV is under 17 or humid sensor measured humidity is drier than 14,
+if white light's brightness is same with 17,
+if brightness of red light is different from 17 or environmental light is not equal with 52,
+on condition that green lamp's brightness is not greater than 17 and celsius by temperature sensor is not same with 2,
+once in every 58 days
+every 58 days
+hold until sound volume of television is higher than 18,
+wait until television channel is smaller than 18 and green lamp's brightness is under 31,
+hold until brightness of main light is no different from 18 or television loudness is different from 42,
+on condition that red light's brightness is not equal with 18,
+if brightness of green lamp is not brighter than 18 or clock hour is more than 94,
+on condition that brightness of blue led is no darker than 18 and watt from power meter is not more than 5,
+once in every 59 hours
+every 59 hours
+stop until TV channel is smaller than 19,
+wait until led lamp's brightness is same with 19 and loudness of television is under 5,
+stay until brightness of red led is different from 19 or scale measured weight is more than 64,
+if green led's brightness is equal or under 19,
+if brightness of blue light is no darker than 19 or brightness of main light is under 26,
+if watt from power meter is greater than 19 and brightness of green led is no different from 68,
+once in every 60 hours
+every 60 hours
+hold until white light's brightness is equal with 20,
+stop until alarm light's brightness is different from 20 and clock minute is smaller than 7,
+hold until brightness of green led is equal or dimmer than 20 or hour is equal with 32,
+if blue light's brightness is no less than 20,
+on condition that watt is more than 20 or clock minute is same with 0,
+on condition that weight is lighter than 20 and celsius by temperature sensor is different from 49,
+once in every day
+every day
+wait until red led's brightness is not same with 21,
+stay until green lamp's brightness is not more than 21 and white led's brightness is no darker than 16,
+stay until blue light's brightness is equal or over 21 or blue led's brightness is not more than 14,
+on condition that measured watt is greater than 21,
+if weight is less than 21 or channel of TV is not equal with 19,
+on condition that brightness by light sensor is no different from 21 and degree by temperature sensor is greater than 57,
+once in every 2 minutes
+every 2 minutes
+stay until brightness of green led is no greater than 22,
+stay until blue led's brightness is equal or more than 22 and brightness measured by light sensor is not more than 56,
+wait until watt from power meter is greater than 22 or brightness of led lamp is brighter than 8,
+if weight measured by scale is lighter than 22,
+on condition that surrounding light is equal with 22 or brightness of green led is equal or more than 10,
+on condition that room humidity is not equal with 22 and white led's brightness is smaller than 55,
+once in every 3 days
+every 3 days
+stop until brightness of blue lamp is no less than 23,
+hold until watt is greater than 23 and distance to object is different from 33,
+hold until weight measured by scale is smaller than 23 or minute is equal or greater than 7,
+on condition that surrounding brightness is same with 23,
+on condition that humidity by humid sensor is different from 23 or blue light's brightness is not brighter than 11,
+on condition that temperature is no more than 23 and clock minute is smaller than 69,
+once in every 4 days
+every 4 days
+hold until measured power is over 24,
+hold until weight is less than 24 and speaker loudness is not same with 80,
+hold until surrounding brightness is same with 24 or distance to object is not closer than 0,
+if humid sensor measured humidity is not equal with 24,
+if degree by temperature sensor is equal or less than 24 or red lamp's brightness is no brighter than 89,
+on condition that distance to object is equal or farther than 24 and television loudness is under 47,
+once in every 5 hours
+every 5 hours
+stop until scale measured weight is under 25,
+stop until ambient lightlight sensor measured brightness is no different from 25 and brightness of white led is dimmer than 56,
+hold until humidity by humid sensor is not same with 25 or hour is no less than 80,
+on condition that degree by temperature sensor is equal or lower than 25,
+if distance to object is equal or greater than 25 or brightness measured by light sensor is greater than 84,
+if hour is greater than 25 and room humidity is more than 97,
+once in every 6 days
+every 6 days
+hold until brightness by light sensor is exactly same with 26,
+hold until room humidity is not same with 26 and humidity by humid sensor is not drier than 49,
+stay until celsius is equal or colder than 26 or blue light's brightness is equal or under 63,
+on condition that distance is not less than 26,
+on condition that hour is later than 26 or hour is different from 2,
+if clock minute is earlier than 26 and green light's brightness is same with 15,
+once in every 7 days
+every 7 days
+hold until humidity measured by humid sensor is different from 27,
+stop until degree measured by temperature sensor is no more than 27 and television loudness is not smaller than 53,
+stop until distance is not smaller than 27 or green light's brightness is equal or more than 31,
+if clock hour is greater than 27,
+if clock minute is under 27 or minute is no smaller than 94,
+on condition that volume of speaker is exactly same with 27 and blue light's brightness is equal or smaller than 95,
+once in every 8 seconds
+every 8 seconds
+stay until celsius by temperature sensor is equal or less than 28,
+stay until distance measured by supersonic sensor is equal or farther than 28 and alarm light's brightness is no greater than 69,
+stop until hour is greater than 28 or TV volume is over 38,
+if clock minute is smaller than 28,
+on condition that speaker loudness is exactly same with 28 or speaker sound volume is equal or less than 66,
+if TV loudness is not same with 28 and distance measured by supersonic sensor is equal or less than 18,
+once in every 9 minutes
+every 9 minutes
+stay until distance to object is not closer than 29,
+wait until clock hour is greater than 29 and scale measured weight is heavier than 31,
+hold until minute is faster than 29 or distance by supersonic sensor is equal with 26,
+if speaker loudness is equal with 29,
+if television sound volume is not equal with 29 or sound volume of speaker is over 19,
+if television channel is no greater than 29 and alarm light's brightness is equal or darker than 41,
+once in every 10 minutes
+every 10 minutes
+wait until clock hour is more than 30,
+wait until minute is under 30 and clock hour is not same with 12,
+stop until speaker loudness is equal with 30 or ambient lightlight sensor measured brightness is brighter than 37,
+on condition that volume of television is not same with 30,
+on condition that channel of television is equal or smaller than 30 or brightness of green light is not smaller than 97,
+on condition that brightness of white led is equal or brighter than 30 and brightness of red led is no more than 44,
+once in every 11 minutes
+every 11 minutes
+stay until clock minute is under 31,
+stop until speaker sound volume is equal with 31 and brightness of green lamp is darker than 76,
+stop until sound volume of television is different from 31 or red led's brightness is under 75,
+on condition that television channel is equal or less than 31,
+on condition that white led's brightness is equal or brighter than 31 or TV volume is equal or smaller than 91,
+on condition that red light's brightness is brighter than 31 and brightness of white led is not equal with 89,
+once in every 12 seconds
+every 12 seconds
+stay until speaker loudness is same with 32,
+stay until television loudness is not same with 32 and brightness of red light is no dimmer than 63,
+hold until television channel is not greater than 32 or clock minute is less than 13,
+on condition that brightness of led lamp is equal or brighter than 32,
+if brightness of alarm light is over 32 or brightness of green light is not greater than 90,
+if green led's brightness is darker than 32 and minute is not less than 98,
+once in every 13 days
+every 13 days
+hold until volume of television is not same with 33,
+stop until television channel is not greater than 33 and brightness of white light is equal or less than 6,
+wait until main light's brightness is not dimmer than 33 or brightness of blue light is no brighter than 45,
+on condition that alarm light's brightness is greater than 33,
+on condition that brightness of green lamp is less than 33 or channel of TV is smaller than 48,
+on condition that blue led's brightness is no different from 33 and hour is no different from 39,
+once in every 14 hours
+every 14 hours
+hold until channel of TV is not greater than 34,
+stop until white light's brightness is not smaller than 34 and humidity measured by humid sensor is same with 60,
+wait until brightness of red lamp is more than 34 or distance by supersonic sensor is no different from 33,
+on condition that brightness of green lamp is dimmer than 34,
+on condition that brightness of blue lamp is same with 34 or hour is no less than 37,
+on condition that watt from power meter is different from 34 and green led's brightness is not equal with 74,
+once in every 15 seconds
+every 15 seconds
+stay until brightness of led lamp is equal or over 35,
+hold until red lamp's brightness is greater than 35 and loudness of TV is quieter than 66,
+hold until green led's brightness is smaller than 35 or distance measured by supersonic sensor is under 98,
+if brightness of blue lamp is no different from 35,
+if watt from power meter is different from 35 or main light's brightness is exactly same with 89,
+on condition that scale measured weight is not heavier than 35 and red lamp's brightness is not equal with 34,
+once in every 16 days
+every 16 days
+stay until brightness of alarm light is over 36,
+wait until green light's brightness is dimmer than 36 and degree by temperature sensor is equal or over 93,
+wait until brightness of blue light is same with 36 or brightness of green light is different from 3,
+if watt is not same with 36,
+on condition that weight measured by scale is equal or smaller than 36 or humidity is different from 56,
+if brightness measured by light sensor is not less than 36 and speaker volume is under 16,
+once in every 17 minutes
+every 17 minutes
+hold until green light's brightness is less than 37,
+wait until brightness of blue led is equal with 37 and brightness of blue light is brighter than 52,
+stay until watt from power meter is different from 37 or sound volume of speaker is equal or over 47,
+if weight is equal or smaller than 37,
+on condition that brightness measured by light sensor is no smaller than 37 or celsius by temperature sensor is colder than 45,
+on condition that humidity measured by humid sensor is damper than 37 and volume of speaker is not equal with 86,
+once in every 18 seconds
+every 18 seconds
+stop until brightness of blue light is exactly same with 38,
+stop until measured power is not same with 38 and humidity measured by humid sensor is more than 95,
+wait until scale measured weight is not greater than 38 or weight measured by scale is not more than 67,
+if surrounding light is not less than 38,
+on condition that room humidity is greater than 38 or TV channel is more than 89,
+on condition that degree by temperature sensor is less than 38 and watt is greater than 91,
+once in every 19 days
+every 19 days
+wait until measured power is not equal with 39,
+wait until weight measured by scale is no higher than 39 and clock minute is not same with 13,
+wait until ambient lightlight sensor measured brightness is not darker than 39 or volume of speaker is exactly same with 19,
+on condition that humidity measured by humid sensor is more than 39,
+if degree is colder than 39 or TV channel is more than 48,
+on condition that distance by supersonic sensor is no different from 39 and distance measured by supersonic sensor is greater than 42,
+once in every 20 days
+every 20 days
+wait until weight is no heavier than 40,
+stop until ambient brightness is not smaller than 40 and celsius is exactly same with 54,
+wait until humidity is over 40 or brightness of white led is darker than 19,
+on condition that celsius measured by temperature sensor is less than 40,
+on condition that distance by supersonic sensor is equal with 40 or celsius by temperature sensor is equal or hotter than 82,
+on condition that hour is not same with 40 and humidity by humid sensor is equal with 44,
+once in every 21 hours
+every 21 hours
